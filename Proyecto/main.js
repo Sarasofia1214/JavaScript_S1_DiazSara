@@ -21,7 +21,7 @@ function menuPrincipal() {
 
 // Menú de Camper
 function menuCamper() {
-  const opcion = prompt(`¿Qué desea hacer?\n1. Inscripción\n2. Ingresar al perfil\n3. Salir del campus\n4. Salir del programa`);
+  const opcion = prompt(`Ingresa el numero de la opcion a escoger\n1. Inscripción\n2. Ingresar al perfil\n3. Salir del campus\n4. Salir del programa`);
 
   switch (opcion) {
     case "1":
