@@ -221,5 +221,353 @@ export const campers = [
             modulo4: 0,
             modulo5: 0
         }
-    }
+    },
+    {
+        ID: 1,
+        Nombre: "Jose",
+        Apellido: "Vergara",
+        Direccion: "45",
+        Acudiente: "Diego",
+        "Numero de celular": 123,
+        "Numero de telefono fijo": 123,
+        Estado: {
+          "En proceso": true,
+          Inscrito: false,
+          Aprobado: false,
+          Cursando: false,
+          Graduado: false,
+          Expulsado: false,
+          Retirado: false
+        },
+        Riesgo: false,
+        grupo: "P_1",
+        notas: { modulo1: 0, modulo2: 0, modulo3: 0, modulo4: 0, modulo5: 0 }
+      },
+      {
+        ID: 2,
+        Nombre: "Laura",
+        Apellido: "Martinez",
+        Direccion: "123",
+        Acudiente: "Camila",
+        "Numero de celular": 456,
+        "Numero de telefono fijo": 789,
+        Estado: {
+          "En proceso": true,
+          Inscrito: false,
+          Aprobado: false,
+          Cursando: false,
+          Graduado: false,
+          Expulsado: false,
+          Retirado: false
+        },
+        Riesgo: false,
+        grupo: "P_1",
+        notas: { modulo1: 0, modulo2: 0, modulo3: 0, modulo4: 0, modulo5: 0 }
+      },
+      {
+        ID: 3,
+        Nombre: "Carlos",
+        Apellido: "Mendez",
+        Direccion: "100",
+        Acudiente: "Luis",
+        "Numero de celular": 987,
+        "Numero de telefono fijo": 654,
+        Estado: {
+          "En proceso": true,
+          Inscrito: false,
+          Aprobado: false,
+          Cursando: false,
+          Graduado: false,
+          Expulsado: false,
+          Retirado: false
+        },
+        Riesgo: true,
+        grupo: "P_1",
+        notas: { modulo1: 0, modulo2: 0, modulo3: 0, modulo4: 0, modulo5: 0 }
+      },
+      {
+        ID: 4,
+        Nombre: "Tatiana",
+        Apellido: "Rojas",
+        Direccion: "89",
+        Acudiente: "Sandra",
+        "Numero de celular": 321,
+        "Numero de telefono fijo": 321,
+        Estado: {
+          "En proceso": true,
+          Inscrito: false,
+          Aprobado: false,
+          Cursando: false,
+          Graduado: false,
+          Expulsado: false,
+          Retirado: false
+        },
+        Riesgo: false,
+        grupo: "P_1",
+        notas: { modulo1: 0, modulo2: 0, modulo3: 0, modulo4: 0, modulo5: 0 }
+      },
+      {
+        ID: 5,
+        Nombre: "Andres",
+        Apellido: "Lopez",
+        Direccion: "77",
+        Acudiente: "Marta",
+        "Numero de celular": 222,
+        "Numero de telefono fijo": 333,
+        Estado: {
+          "En proceso": true,
+          Inscrito: false,
+          Aprobado: false,
+          Cursando: false,
+          Graduado: false,
+          Expulsado: false,
+          Retirado: false
+        },
+        Riesgo: false,
+        grupo: "P_2",
+        notas: { modulo1: 0, modulo2: 0, modulo3: 0, modulo4: 0, modulo5: 0 }
+      },
+    
+      // Miguel Rodriguez - Grupo M_1
+      {
+        ID: 6,
+        Nombre: "Esteban",
+        Apellido: "Ortiz",
+        Direccion: "12",
+        Acudiente: "Raul",
+        "Numero de celular": 555,
+        "Numero de telefono fijo": 666,
+        Estado: {
+          "En proceso": true,
+          Inscrito: false,
+          Aprobado: false,
+          Cursando: false,
+          Graduado: false,
+          Expulsado: false,
+          Retirado: false
+        },
+        Riesgo: false,
+        grupo: "M_1",
+        notas: { modulo1: 0, modulo2: 0, modulo3: 0, modulo4: 0, modulo5: 0 }
+      },
+      {
+        ID: 7,
+        Nombre: "Valentina",
+        Apellido: "Diaz",
+        Direccion: "15",
+        Acudiente: "Angela",
+        "Numero de celular": 777,
+        "Numero de telefono fijo": 888,
+        Estado: {
+          "En proceso": true,
+          Inscrito: false,
+          Aprobado: false,
+          Cursando: false,
+          Graduado: false,
+          Expulsado: false,
+          Retirado: false
+        },
+        Riesgo: false,
+        grupo: "M_1",
+        notas: { modulo1: 0, modulo2: 0, modulo3: 0, modulo4: 0, modulo5: 0 }
+      },
+      {
+        ID: 8,
+        Nombre: "Samuel",
+        Apellido: "Reyes",
+        Direccion: "34",
+        Acudiente: "Mario",
+        "Numero de celular": 111,
+        "Numero de telefono fijo": 444,
+        Estado: {
+          "En proceso": true,
+          Inscrito: false,
+          Aprobado: false,
+          Cursando: false,
+          Graduado: false,
+          Expulsado: false,
+          Retirado: false
+        },
+        Riesgo: false,
+        grupo: "M_1",
+        notas: { modulo1: 0, modulo2: 0, modulo3: 0, modulo4: 0, modulo5: 0 }
+      },
+      {
+        ID: 9,
+        Nombre: "Daniela",
+        Apellido: "Morales",
+        Direccion: "80",
+        Acudiente: "Diana",
+        "Numero de celular": 999,
+        "Numero de telefono fijo": 111,
+        Estado: {
+          "En proceso": true,
+          Inscrito: false,
+          Aprobado: false,
+          Cursando: false,
+          Graduado: false,
+          Expulsado: false,
+          Retirado: false
+        },
+        Riesgo: false,
+        grupo: "M_1",
+        notas: { modulo1: 0, modulo2: 0, modulo3: 0, modulo4: 0, modulo5: 0 }
+      },
+      {
+        ID: 10,
+        Nombre: "Felipe",
+        Apellido: "Cruz",
+        Direccion: "42",
+        Acudiente: "Alejandra",
+        "Numero de celular": 313,
+        "Numero de telefono fijo": 312,
+        Estado: {
+          "En proceso": true,
+          Inscrito: false,
+          Aprobado: false,
+          Cursando: false,
+          Graduado: false,
+          Expulsado: false,
+          Retirado: false
+        },
+        Riesgo: true,
+        grupo: "M_1",
+        notas: { modulo1: 0, modulo2: 0, modulo3: 0, modulo4: 0, modulo5: 0 }
+      },
+      {
+        ID: 301,
+        Nombre: "Luis",
+        Apellido: "Martínez",
+        Direccion: "Calle 123",
+        Acudiente: "Ana Torres",
+        "Numero de celular": 301111111,
+        "Numero de telefono fijo": 601111111,
+        Estado: {
+          "En proceso": true,
+          Inscrito: false,
+          Aprobado: false,
+          Cursando: false,
+          Graduado: false,
+          Expulsado: false,
+          Retirado: false
+        },
+        Riesgo: false,
+        grupo: "P_3",
+        notas: {
+          modulo1: 0,
+          modulo2: 0,
+          modulo3: 0,
+          modulo4: 0,
+          modulo5: 0
+        }
+      },
+      {
+        ID: 302,
+        Nombre: "Camila",
+        Apellido: "Pérez",
+        Direccion: "Carrera 45",
+        Acudiente: "Juan Ruiz",
+        "Numero de celular": 301222222,
+        "Numero de telefono fijo": 601222222,
+        Estado: {
+          "En proceso": true,
+          Inscrito: false,
+          Aprobado: false,
+          Cursando: false,
+          Graduado: false,
+          Expulsado: false,
+          Retirado: false
+        },
+        Riesgo: false,
+        grupo: "P_3",
+        notas: {
+          modulo1: 0,
+          modulo2: 0,
+          modulo3: 0,
+          modulo4: 0,
+          modulo5: 0
+        }
+      },
+      {
+        ID: 303,
+        Nombre: "Carlos",
+        Apellido: "López",
+        Direccion: "Calle 88",
+        Acudiente: "María Gómez",
+        "Numero de celular": 301333333,
+        "Numero de telefono fijo": 601333333,
+        Estado: {
+          "En proceso": true,
+          Inscrito: false,
+          Aprobado: false,
+          Cursando: false,
+          Graduado: false,
+          Expulsado: false,
+          Retirado: false
+        },
+        Riesgo: false,
+        grupo: "P_3",
+        notas: {
+          modulo1: 0,
+          modulo2: 0,
+          modulo3: 0,
+          modulo4: 0,
+          modulo5: 0
+        }
+      },
+      {
+        ID: 304,
+        Nombre: "Andrea",
+        Apellido: "Moreno",
+        Direccion: "Avenida Siempre Viva",
+        Acudiente: "Pedro Moreno",
+        "Numero de celular": 301444444,
+        "Numero de telefono fijo": 601444444,
+        Estado: {
+          "En proceso": true,
+          Inscrito: false,
+          Aprobado: false,
+          Cursando: false,
+          Graduado: false,
+          Expulsado: false,
+          Retirado: false
+        },
+        Riesgo: false,
+        grupo: "P_3",
+        notas: {
+          modulo1: 0,
+          modulo2: 0,
+          modulo3: 0,
+          modulo4: 0,
+          modulo5: 0
+        }
+      },
+      {
+        ID: 305,
+        Nombre: "David",
+        Apellido: "Castro",
+        Direccion: "Diagonal 10",
+        Acudiente: "Luisa Castro",
+        "Numero de celular": 301555555,
+        "Numero de telefono fijo": 601555555,
+        Estado: {
+          "En proceso": true,
+          Inscrito: false,
+          Aprobado: false,
+          Cursando: false,
+          Graduado: false,
+          Expulsado: false,
+          Retirado: false
+        },
+        Riesgo: false,
+        grupo: "P_3",
+        notas: {
+          modulo1: 0,
+          modulo2: 0,
+          modulo3: 0,
+          modulo4: 0,
+          modulo5: 0
+        }
+      },
+    
 ];
