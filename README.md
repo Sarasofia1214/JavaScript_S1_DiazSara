@@ -6,11 +6,13 @@ En este repositorio se encuentra el proyecto de Python en el que se evidencia la
 
 | Archivos | Contenidos |
 |--|--|
-| Main |https://github.com/Maria-Juliana-Saavedra-Mejia/Proyecto_Python_SaavedraMaria-DiazSara/blob/master/main.py |
-| Coordinador | https://github.com/Maria-Juliana-Saavedra-Mejia/Proyecto_Python_SaavedraMaria-DiazSara/blob/master/defcoordinador.py |
-| Modulos | https://github.com/Maria-Juliana-Saavedra-Mejia/Proyecto_Python_SaavedraMaria-DiazSara/blob/master/modulos.py|
-| JSON Campers  | https://github.com/Maria-Juliana-Saavedra-Mejia/Proyecto_Python_SaavedraMaria-DiazSara/blob/master/json/camper.json |
-| JSON Salones | https://github.com/Maria-Juliana-Saavedra-Mejia/Proyecto_Python_SaavedraMaria-DiazSara/blob/master/json/salones.json |
+| Index |https://github.com/Sarasofia1214/JavaScript_S1_DiazSara/blob/master/Proyecto/index.html |
+| Main |https://github.com/Sarasofia1214/JavaScript_S1_DiazSara/blob/master/Proyecto/main.js |
+| Coordinador |https://github.com/Sarasofia1214/JavaScript_S1_DiazSara/blob/master/Proyecto/coordinador.js |
+| Trainer |https://github.com/Sarasofia1214/JavaScript_S1_DiazSara/blob/master/Proyecto/trainer.js|
+| Camper | https://github.com/Sarasofia1214/JavaScript_S1_DiazSara/blob/master/Proyecto/camper.js |
+| JSON Campers  | https://github.com/Sarasofia1214/JavaScript_S1_DiazSara/blob/master/Proyecto/info_camper.js |
+| JSON Salones | https://github.com/Sarasofia1214/JavaScript_S1_DiazSara/blob/master/Proyecto/salones.js |
 
 
 # **Instalación**
