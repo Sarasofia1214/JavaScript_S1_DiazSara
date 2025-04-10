@@ -43,7 +43,7 @@ export function mostrarPerfilCamper(lista) {
       .join(", ");
 
     alert(
-      `📋 Perfil del Camper\n\n` +
+      ` Perfil del Camper\n\n` +
       `Nombre: ${camper.Nombre} ${camper.Apellido}\n` +
       `Dirección: ${camper.Direccion}\n` +
       `Acudiente: ${camper.Acudiente}\n` +
@@ -52,7 +52,7 @@ export function mostrarPerfilCamper(lista) {
       `Estado: ${estadoActual || "Sin estado definido"}\n` +
       `Riesgo: ${camper.Riesgo ? "Sí" : "No"}\n` +
       `Grupo: ${camper.grupo || "Sin grupo"}\n\n` +
-      `📊 Notas:\n` +
+      `Notas:\n` +
       `Módulo 1: ${camper.notas.modulo1}\n` +
       `Módulo 2: ${camper.notas.modulo2}\n` +
       `Módulo 3: ${camper.notas.modulo3}\n` +
@@ -60,7 +60,7 @@ export function mostrarPerfilCamper(lista) {
       `Módulo 5: ${camper.notas.modulo5}`
     );
   } else {
-    alert("❌ No se encontró ningún camper con ese número de documento.");
+    alert("No se encontró ningún camper con ese número de documento.");
   }
 }
 
@@ -71,7 +71,7 @@ export function salirCampus(lista) {
   if (index !== -1) {
     const nombre = lista[index].Nombre;
     lista.splice(index, 1);
-    alert(`🚪 El camper ${nombre} ha salido del campus.`);
+    alert(` El camper ${nombre} ha salido del campus.`);
   } else {
     alert("No hay registro con ese numero de documento.");
   }

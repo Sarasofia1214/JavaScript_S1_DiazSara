@@ -1,6 +1,7 @@
 import { campers } from "./info_camper.js";
 import { inscribirCamper, mostrarPerfilCamper, salirCampus } from "./camper.js";
-import { subMenuTrainer } from "./trainer.js"; // ✅ Importación corregida
+import { subMenuTrainer } from "./trainer.js"; 
+import { menuCoordinador} from "./coordinador.js";
 
 function menuPrincipal() {
   const opcion = prompt("Bienvenido al programa de Campuslands\n1. Camper\n2. Trainer\n3. Coordinador");
@@ -13,7 +14,38 @@ function menuPrincipal() {
       menuTrainer();
       break;
     case "3":
-      alert("⚠️ Función de Coordinador en desarrollo.");
+      let opcionCoord;
+      do {
+        opcionCoord = Number(menuCoordinador());
+        switch (opcionCoord) {
+          case 1:
+            agregarNotasPruebaInscripcion();
+            break;
+          case 2:
+            agregarTrainer();
+            break;
+          case 3:
+            agregarModulo();
+            break;
+          case 4:
+            moduloMatriculas();
+            break;
+          case 5:
+            moduloReportes();
+            break;
+          case 6:
+            eliminarTrainer();
+            break;
+          case 7:
+            eliminarModulo();
+            break;
+          case 8:
+            alert("Volviendo al menú principal...");
+            break;
+          default:
+            alert(" Opción inválida.");
+        }
+      } while (opcionCoord !== 8);
       break;
     default:
       alert("Opción inválida.");
@@ -24,7 +56,7 @@ function menuCamper() {
   let opcion;
   do {
     opcion = prompt(
-      "Ingrese el número de la opción :\n" +
+      "Ingrese el número de la opción:\n" +
       "1. Ingresar al perfil\n" +
       "2. Inscribirse\n" +
       "3. Salir del campus\n" +
@@ -87,7 +119,7 @@ export function menuTrainer() {
         alert("↩️ Volviendo al menú principal...");
         break;
       default:
-        alert("❌ Opción inválida.");
+        alert("Opción inválida.");
     }
   } while (opcion !== "7");
 }
