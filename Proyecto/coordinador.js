@@ -118,17 +118,133 @@ export function moduloMatriculas() {
 
 // Función para el módulo de reportes (sin implementar aún)
 export function moduloReportes() {
-  alert("Funcionalidad para el módulo de reportes aún no implementada.");
+  let opcion;
+  do {
+    opcion = prompt(
+      "Módulo de Reportes\n" +
+      "1. Campers inscritos\n" +
+      "2. Campers aprobados\n" +
+      "3. Lista de trainers\n" +
+      "4. Campers con bajo rendimiento\n" +
+      "5. Campers y trainers por ruta\n" +
+      "6. Aprobados y perdidos por módulo\n" +
+      "7. Volver"
+    );
+
+    switch (opcion) {
+      case "1":
+        alert("Campers inscritos:\n" +
+          campers.filter(c => c.Estado?.["En proceso"])
+            .map(c => `${c.Nombre} ${c.Apellido}`).join("\n") || "Ninguno");
+        break;
+
+      case "2":
+        alert("Campers aprobados:\n" +
+          campers.filter(c => c.Estado?.Aprobado)
+            .map(c => `${c.Nombre} ${c.Apellido}`).join("\n") || "Ninguno");
+        break;
+
+      case "3":
+        alert("Trainers:\n" +
+          salones.map(s => s.Profesor).join("\n"));
+        break;
+
+      case "4":
+        alert("Campers con bajo rendimiento:\n" +
+          campers.filter(c => c.Notas && promedio(Object.values(c.Notas)) < 60)
+            .map(c => `${c.Nombre} ${c.Apellido}`).join("\n") || "Ninguno");
+        break;
+
+        case "5":
+          let mensajeRuta = "";
+          salones.forEach(s => {
+            const grupoCampers = campers.filter(c => c.Grupo === s.grupo);
+            mensajeRuta += `\nRuta: ${s.Ruta}\nTrainer: ${s.Profesor}\nCampers:\n${grupoCampers.map(c => `- ${c.Nombre} ${c.Apellido}`).join("\n") || "Ninguno"}\n`;
+          });
+          alert(mensajeRuta);
+          break;
+
+      case "6":
+        let resumen = "";
+        salones.forEach(s => {
+          s.Modulos.forEach(m => {
+            let aprobados = 0;
+            let perdidos = 0;
+            campers.forEach(c => {
+              if (c.Grupo === s.grupo && c.Notas && c.Notas[m] !== undefined) {
+                if (c.Notas[m] >= 60) aprobados++;
+                else perdidos++;
+              }
+            });
+            resumen += `\nMódulo: ${m} (Trainer: ${s.Profesor})\nAprobados: ${aprobados}\nPerdidos: ${perdidos}\n`;
+          });
+        });
+        alert(resumen);
+        break;
+
+      case "7":
+        alert("Volviendo al menú...");
+        break;
+
+      default:
+        alert("Opción inválida.");
+    }
+
+  } while (opcion !== "7");
 }
 
-// Función para eliminar un trainer (sin implementar aún)
+function promedio(arr) {
+  return Math.round(arr.reduce((a, b) => a + b, 0) / arr.length);
+}
+
 export function eliminarTrainer() {
-  alert("Funcionalidad para eliminar trainer aún no implementada.");
+  let lista = "Entrenadores:\n";
+  salones.forEach((s, i) => {
+    lista += `${i + 1}. ${s.Profesor}\n`;
+  });
+
+  const opcion = prompt(lista + "Escriba el número del entrenador que desea eliminar:");
+  const index = Number(opcion) - 1;
+
+  if (salones[index]) {
+    salones[index].Profesor = "Sin asignar";
+    alert("Trainer eliminado.");
+  } else {
+    alert("Opción inválida.");
+  }
 }
 
-// Función para eliminar módulos (sin implementar aún)
 export function eliminarModulo() {
-  alert("Funcionalidad para eliminar módulo aún no implementada.");
+  let listaSalones = "Salones disponibles:\n";
+  salones.forEach((s, i) => {
+    listaSalones += `${i + 1}. ${s.Salon}\n`;
+  });
+
+  const salonIndex = Number(prompt(listaSalones + "Escriba el número del salón:")) - 1;
+
+  if (salones[salonIndex]) {
+    const modulos = salones[salonIndex].Modulos;
+    if (modulos.length === 0) {
+      alert("Este salón no tiene módulos.");
+      return;
+    }
+
+    let listaModulos = `Módulos en ${salones[salonIndex].Salon}:\n`;
+    modulos.forEach((m, i) => {
+      listaModulos += `${i + 1}. ${m}\n`;
+    });
+
+    const moduloIndex = Number(prompt(listaModulos + "Ingrese el número del módulo que desea eliminar:")) - 1;
+
+    if (modulos[moduloIndex]) {
+      const eliminado = modulos.splice(moduloIndex, 1);
+      alert(`Módulo "${eliminado}" eliminado con éxito.`);
+    } else {
+      alert("Opción de módulo inválida.");
+    }
+  } else {
+    alert("Opción de salón inválida.");
+  }
 }
 
 // Función del menú coordinador
