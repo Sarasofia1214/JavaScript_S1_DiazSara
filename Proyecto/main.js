@@ -1,7 +1,7 @@
 import { campers } from "./info_camper.js";
 import { inscribirCamper, mostrarPerfilCamper, salirCampus } from "./camper.js";
 import { subMenuTrainer } from "./trainer.js"; 
-import { menuCoordinador} from "./coordinador.js";
+import { menuCoordinador } from "./coordinador.js";  // Asegúrate de importar correctamente la función
 
 function menuPrincipal() {
   const opcion = prompt("Bienvenido al programa de Campuslands\n1. Camper\n2. Trainer\n3. Coordinador");
@@ -14,38 +14,8 @@ function menuPrincipal() {
       menuTrainer();
       break;
     case "3":
-      let opcionCoord;
-      do {
-        opcionCoord = Number(menuCoordinador());
-        switch (opcionCoord) {
-          case 1:
-            agregarNotasPruebaInscripcion();
-            break;
-          case 2:
-            agregarTrainer();
-            break;
-          case 3:
-            agregarModulo();
-            break;
-          case 4:
-            moduloMatriculas();
-            break;
-          case 5:
-            moduloReportes();
-            break;
-          case 6:
-            eliminarTrainer();
-            break;
-          case 7:
-            eliminarModulo();
-            break;
-          case 8:
-            alert("Volviendo al menú principal...");
-            break;
-          default:
-            alert(" Opción inválida.");
-        }
-      } while (opcionCoord !== 8);
+      // Aquí solo llamamos a la función menuCoordinador sin necesidad de asignarlo a una variable
+      menuCoordinador();  // Llama directamente al menú del coordinador
       break;
     default:
       alert("Opción inválida.");
