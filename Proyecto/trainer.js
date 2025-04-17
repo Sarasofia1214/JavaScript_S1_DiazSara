@@ -19,8 +19,25 @@ export function mostrarEstudiantesPorProfesor(nombreProfesor) {
   }
 }
 
-export function trainerAgregarNotasp(nombreProfesor) {
-  alert(`Agregando notas para clase del profesor ${nombreProfesor}`);
+export function trainerAgregarNotasp(nombreProfesor)  {
+  const idCamper = Number(prompt("Ingrese el ID del camper a calificar:"));
+  const camper = campers.find(c => c.ID === idCamper);
+
+  if (!camper) {
+    alert("Camper no encontrado.");
+    return;
+  }
+
+  const teoria = Number(prompt("Ingrese la nota de la prueba teórica (30%):"));
+  const practica = Number(prompt("Ingrese la nota de la prueba práctica (60%):"));
+  const evaluacion = Number(prompt("Ingrese la nota de la evaluación (10%):"));
+
+  const promedio = (teoria * 0.3) + (practica * 0.6) + (evaluacion * 0.1);
+
+  alert(`📊 Promedio final: ${promedio.toFixed(2)}\n${promedio >= 60 ? "✅ Aprobado" : "❌ Reprobado"}`);
+
+  // Por ahora se guarda en módulo1 como ejemplo
+  camper.notas.modulo1 = promedio;
 }
 
 export function trainerVerHorarioP(nombreProfesor) {

@@ -20,11 +20,9 @@ export function inscribirCamper(lista) {
     Riesgo: false,
     grupo: "",
     notas: {
-      modulo1: 0.0,
-      modulo2: 0.0,
-      modulo3: 0.0,
-      modulo4: 0.0,
-      modulo5: 0.0,
+      Pruebatéorica: 0,
+      PruebaPráctica: 0,
+      Evaluaciones: 0, 
     }
   };
 
@@ -53,11 +51,10 @@ export function mostrarPerfilCamper(lista) {
       `Riesgo: ${camper.Riesgo ? "Sí" : "No"}\n` +
       `Grupo: ${camper.grupo || "Sin grupo"}\n\n` +
       `Notas:\n` +
-      `Módulo 1: ${camper.notas.modulo1}\n` +
-      `Módulo 2: ${camper.notas.modulo2}\n` +
-      `Módulo 3: ${camper.notas.modulo3}\n` +
-      `Módulo 4: ${camper.notas.modulo4}\n` +
-      `Módulo 5: ${camper.notas.modulo5}`
+      `Prueba téorica: ${camper.notas.Pruebatéorica}\n` +
+      `Prueba Práctica: ${camper.notas.PruebaPráctica}\n` +
+      `Evaluaciones: ${camper.notas.Evaluaciones}` 
+
     );
   } else {
     alert("No se encontró ningún camper con ese número de documento.");

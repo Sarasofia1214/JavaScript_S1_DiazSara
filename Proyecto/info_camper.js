@@ -21,11 +21,9 @@ export const campers = [
         Riesgo: true,
         grupo: "P_2",
         notas: {
-            modulo1: 15.5,
-            modulo2: 90.0,
-            modulo3: 0.0,
-            modulo4: 0.0,
-            modulo5: 0.0
+          Pruebatéorica: 0,
+          PruebaPráctica: 0,
+          Evaluaciones: 0, 
         }
     },
     {
@@ -49,11 +47,9 @@ export const campers = [
         Riesgo: false,
         grupo: "M_2",
         notas: {
-            modulo1: 100.0,
-            modulo2: 0.0,
-            modulo3: 0.0,
-            modulo4: 0.0,
-            modulo5: 0.0
+          Pruebatéorica: 0,
+          PruebaPráctica: 0,
+          Evaluaciones: 0, 
         }
     },
     {
@@ -77,11 +73,9 @@ export const campers = [
         Riesgo: false,
         grupo: "S_1",
         notas: {
-            modulo1: 0.0,
-            modulo2: 0.0,
-            modulo3: 0.0,
-            modulo4: 0.0,
-            modulo5: 0.0
+          Pruebatéorica: 0,
+          PruebaPráctica: 0,
+          Evaluaciones: 0, 
         }
     },
 
@@ -106,11 +100,9 @@ export const campers = [
         Riesgo: true,
         grupo: "J_2",
         notas: {
-            modulo1: 100.0,
-            modulo2: 0.0,
-            modulo3: 0.0,
-            modulo4: 0.0,
-            modulo5: 0.0
+          Pruebatéorica: 0,
+          PruebaPráctica: 0,
+          Evaluaciones: 0, 
         }
     },
     {
@@ -134,11 +126,9 @@ export const campers = [
         Riesgo: true,
         grupo: "J_1",
         notas: {
-            modulo1: 48.3,
-            modulo2: 47.0,
-            modulo3: 38.7,
-            modulo4: 0.0,
-            modulo5: 0.0
+          Pruebatéorica: 0,
+          PruebaPráctica: 0,
+          Evaluaciones: 0, 
         }
     },
     {
@@ -161,11 +151,9 @@ export const campers = [
         Riesgo: false,
         grupo: "M_2",
         notas: {
-            modulo1: 0,
-            modulo2: 0,
-            modulo3: 0,
-            modulo4: 0,
-            modulo5: 0
+          Pruebatéorica: 0,
+          PruebaPráctica: 0,
+          Evaluaciones: 0, 
         }
     },
     {
@@ -188,11 +176,9 @@ export const campers = [
         Riesgo: false,
         grupo: "M_1",
         notas: {
-            modulo1: 0,
-            modulo2: 0,
-            modulo3: 0,
-            modulo4: 0,
-            modulo5: 0
+          Pruebatéorica: 0,
+          PruebaPráctica: 0,
+          Evaluaciones: 0, 
         }
     },
     {
@@ -215,11 +201,9 @@ export const campers = [
         Riesgo: false,
         grupo: "P_1",
         notas: {
-            modulo1: 0,
-            modulo2: 0,
-            modulo3: 0,
-            modulo4: 0,
-            modulo5: 0
+            Pruebatéorica: 0,
+          PruebaPráctica: 0,
+          Evaluaciones: 0, 
         }
     },
     {
@@ -241,7 +225,9 @@ export const campers = [
         },
         Riesgo: false,
         grupo: "P_1",
-        notas: { modulo1: 0, modulo2: 0, modulo3: 0, modulo4: 0, modulo5: 0 }
+        notas: {Pruebatéorica: 0,
+          PruebaPráctica: 0,
+          Evaluaciones: 0,  }
       },
       {
         ID: 2,
@@ -262,7 +248,9 @@ export const campers = [
         },
         Riesgo: false,
         grupo: "P_1",
-        notas: { modulo1: 0, modulo2: 0, modulo3: 0, modulo4: 0, modulo5: 0 }
+        notas: { Pruebatéorica: 0,
+          PruebaPráctica: 0,
+          Evaluaciones: 0, }
       },
       {
         ID: 3,
@@ -283,7 +271,9 @@ export const campers = [
         },
         Riesgo: true,
         grupo: "P_1",
-        notas: { modulo1: 0, modulo2: 0, modulo3: 0, modulo4: 0, modulo5: 0 }
+        notas: { Pruebatéorica: 0,
+          PruebaPráctica: 0,
+          Evaluaciones: 0, }
       },
       {
         ID: 4,
@@ -304,7 +294,9 @@ export const campers = [
         },
         Riesgo: false,
         grupo: "P_1",
-        notas: { modulo1: 0, modulo2: 0, modulo3: 0, modulo4: 0, modulo5: 0 }
+        notas: { Pruebatéorica: 0,
+          PruebaPráctica: 0,
+          Evaluaciones: 0, }
       },
       {
         ID: 5,
@@ -325,7 +317,9 @@ export const campers = [
         },
         Riesgo: false,
         grupo: "P_2",
-        notas: { modulo1: 0, modulo2: 0, modulo3: 0, modulo4: 0, modulo5: 0 }
+        notas: { Pruebatéorica: 0,
+          PruebaPráctica: 0,
+          Evaluaciones: 0, }
       },
     
       // Miguel Rodriguez - Grupo M_1
@@ -348,7 +342,9 @@ export const campers = [
         },
         Riesgo: false,
         grupo: "M_1",
-        notas: { modulo1: 0, modulo2: 0, modulo3: 0, modulo4: 0, modulo5: 0 }
+        notas: { Pruebatéorica: 0,
+          PruebaPráctica: 0,
+          Evaluaciones: 0, }
       },
       {
         ID: 7,
@@ -369,7 +365,9 @@ export const campers = [
         },
         Riesgo: false,
         grupo: "M_1",
-        notas: { modulo1: 0, modulo2: 0, modulo3: 0, modulo4: 0, modulo5: 0 }
+        notas: { Pruebatéorica: 0,
+          PruebaPráctica: 0,
+          Evaluaciones: 0, }
       },
       {
         ID: 8,
@@ -390,7 +388,9 @@ export const campers = [
         },
         Riesgo: false,
         grupo: "M_1",
-        notas: { modulo1: 0, modulo2: 0, modulo3: 0, modulo4: 0, modulo5: 0 }
+        notas: { Pruebatéorica: 0,
+          PruebaPráctica: 0,
+          Evaluaciones: 0, }
       },
       {
         ID: 9,
@@ -411,7 +411,9 @@ export const campers = [
         },
         Riesgo: false,
         grupo: "M_1",
-        notas: { modulo1: 0, modulo2: 0, modulo3: 0, modulo4: 0, modulo5: 0 }
+        notas: { Pruebatéorica: 0,
+          PruebaPráctica: 0,
+          Evaluaciones: 0, }
       },
       {
         ID: 10,
@@ -432,7 +434,9 @@ export const campers = [
         },
         Riesgo: true,
         grupo: "M_1",
-        notas: { modulo1: 0, modulo2: 0, modulo3: 0, modulo4: 0, modulo5: 0 }
+        notas: { Pruebatéorica: 0,
+          PruebaPráctica: 0,
+          Evaluaciones: 0, }
       },
       {
         ID: 301,
@@ -454,11 +458,9 @@ export const campers = [
         Riesgo: false,
         grupo: "P_3",
         notas: {
-          modulo1: 0,
-          modulo2: 0,
-          modulo3: 0,
-          modulo4: 0,
-          modulo5: 0
+          Pruebatéorica: 0,
+          PruebaPráctica: 0,
+          Evaluaciones: 0, 
         }
       },
       {
@@ -481,11 +483,9 @@ export const campers = [
         Riesgo: false,
         grupo: "P_3",
         notas: {
-          modulo1: 0,
-          modulo2: 0,
-          modulo3: 0,
-          modulo4: 0,
-          modulo5: 0
+          Pruebatéorica: 0,
+          PruebaPráctica: 0,
+          Evaluaciones: 0, 
         }
       },
       {
@@ -508,11 +508,9 @@ export const campers = [
         Riesgo: false,
         grupo: "P_3",
         notas: {
-          modulo1: 0,
-          modulo2: 0,
-          modulo3: 0,
-          modulo4: 0,
-          modulo5: 0
+          Pruebatéorica: 0,
+          PruebaPráctica: 0,
+          Evaluaciones: 0, 
         }
       },
       {
@@ -535,11 +533,9 @@ export const campers = [
         Riesgo: false,
         grupo: "P_3",
         notas: {
-          modulo1: 0,
-          modulo2: 0,
-          modulo3: 0,
-          modulo4: 0,
-          modulo5: 0
+          Pruebatéorica: 0,
+          PruebaPráctica: 0,
+          Evaluaciones: 0, 
         }
       },
       {
@@ -562,11 +558,9 @@ export const campers = [
         Riesgo: false,
         grupo: "P_3",
         notas: {
-          modulo1: 0,
-          modulo2: 0,
-          modulo3: 0,
-          modulo4: 0,
-          modulo5: 0
+          Pruebatéorica: 0,
+          PruebaPráctica: 0,
+          Evaluaciones: 0, 
         }
       },
     

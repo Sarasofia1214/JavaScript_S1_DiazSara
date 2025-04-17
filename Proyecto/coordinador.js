@@ -1,3 +1,4 @@
+import { campers } from "./info_camper.js";
 export function menuCoordinador() {
     const opcion = prompt(
       "Menú del Coordinador:\n" +
