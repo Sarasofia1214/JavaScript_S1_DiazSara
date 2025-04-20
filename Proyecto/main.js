@@ -1,8 +1,8 @@
 import { campers } from "./info_camper.js";
 import { inscribirCamper, mostrarPerfilCamper, salirCampus } from "./camper.js";
 import { subMenuTrainer } from "./trainer.js"; 
-import { menuCoordinador } from "./coordinador.js";  // Asegúrate de importar correctamente la función
-
+import { menuCoordinador } from "./coordinador.js";  
+// CRUD principal 
 function menuPrincipal() {
   const opcion = prompt("Bienvenido al programa de Campuslands\n1. Camper\n2. Trainer\n3. Coordinador");
 
@@ -14,26 +14,22 @@ function menuPrincipal() {
       menuTrainer();
       break;
     case "3":
-      // Aquí solo llamamos a la función menuCoordinador sin necesidad de asignarlo a una variable
-      menuCoordinador();  // Llama directamente al menú del coordinador
+      menuCoordinador();  
       break;
     default:
-      alert("Opción inválida.");
+      alert("Opción incorrecta");
   }
 }
-
+// CRUD camper 
 function menuCamper() {
-  let opcion;
+  let opcion2;
+// ciclo do-while (correr el código hasta que se cumpla la condición)
   do {
-    opcion = prompt(
-      "Ingrese el número de la opción:\n" +
-      "1. Ingresar al perfil\n" +
-      "2. Inscribirse\n" +
-      "3. Salir del campus\n" +
-      "4. Salir"
+    opcion2 = prompt(
+      "Ingrese el número de la opción:\n 1. Ingresar al perfil\n 2. Inscribirse\n3. Salir del campus\n 4. Salir"
     );
 
-    switch (opcion) {
+    switch (opcion2) {
       case "1":
         mostrarPerfilCamper(campers);
         break;
@@ -44,27 +40,19 @@ function menuCamper() {
         salirCampus(campers);
         break;
       case "4":
-        alert("Ha cerrado sesión");
+        alert("Se ha cerrado sesión");
         break;
       default:
-        alert("Opción inválida.");
+        alert("Opción icorrecta");
     }
-  } while (opcion !== "4");
+  } while (opcion2 !=="4");// la condición es que el usuario cierre sesión
 }
-
-export function menuTrainer() {
+// CRUD trainer
+function menuTrainer() {
   let opcion;
   do {
     opcion = prompt(
-      "Bienvenido Trainer\n" +
-      "1. Pedro Gomez\n" +
-      "2. Miguel Rodriguez\n" +
-      "3. Juan Nariño\n" +
-      "4. Santiago Melo\n" +
-      "5. Carlos Rueda\n" +
-      "6. Antonio Vega\n" +
-      "7. Volver al menú principal"
-    );
+      "Bienvenido Trainer\n1. Pedro Gomez\n2. Miguel Rodriguez\n3. Juan Nariño\n4. Santiago Melo\n5. Carlos Rueda\n6. Antonio Vega\n7. Volver al menú principal" );
 
     switch (opcion) {
       case "1":
@@ -86,7 +74,6 @@ export function menuTrainer() {
         subMenuTrainer("Antonio Vega");
         break;
       case "7":
-        alert("↩️ Volviendo al menú principal...");
         break;
       default:
         alert("Opción inválida.");
