@@ -21,8 +21,8 @@ export const campers = [
         Riesgo: true,
         grupo: "P_2",
         notas: {
-          Pruebatéorica: 0,
-          PruebaPráctica: 0,
+          "Prueba téorica": 0,
+           
           Evaluaciones: 0, 
         }
     },
@@ -47,8 +47,8 @@ export const campers = [
         Riesgo: false,
         grupo: "M_2",
         notas: {
-          Pruebatéorica: 0,
-          PruebaPráctica: 0,
+         
+           
           Evaluaciones: 0, 
         }
     },
@@ -73,8 +73,8 @@ export const campers = [
         Riesgo: false,
         grupo: "S_1",
         notas: {
-          Pruebatéorica: 0,
-          PruebaPráctica: 0,
+         
+           
           Evaluaciones: 0, 
         }
     },
@@ -100,8 +100,8 @@ export const campers = [
         Riesgo: true,
         grupo: "J_2",
         notas: {
-          Pruebatéorica: 0,
-          PruebaPráctica: 0,
+          "Prueba téorica": 0,
+          "Prueba Práctica": 0,
           Evaluaciones: 0, 
         }
     },
@@ -126,8 +126,8 @@ export const campers = [
         Riesgo: true,
         grupo: "J_1",
         notas: {
-          Pruebatéorica: 0,
-          PruebaPráctica: 0,
+         
+           
           Evaluaciones: 0, 
         }
     },
@@ -151,8 +151,8 @@ export const campers = [
         Riesgo: false,
         grupo: "M_2",
         notas: {
-          Pruebatéorica: 0,
-          PruebaPráctica: 0,
+         
+           
           Evaluaciones: 0, 
         }
     },
@@ -176,8 +176,8 @@ export const campers = [
         Riesgo: false,
         grupo: "M_1",
         notas: {
-          Pruebatéorica: 0,
-          PruebaPráctica: 0,
+           
+           
           Evaluaciones: 0, 
         }
     },
@@ -201,8 +201,8 @@ export const campers = [
         Riesgo: false,
         grupo: "P_1",
         notas: {
-            Pruebatéorica: 0,
-          PruebaPráctica: 0,
+           
+           
           Evaluaciones: 0, 
         }
     },
@@ -225,8 +225,8 @@ export const campers = [
         },
         Riesgo: false,
         grupo: "P_1",
-        notas: {Pruebatéorica: 0,
-          PruebaPráctica: 0,
+        notas: {"Pruebatéorica": 0,
+           
           Evaluaciones: 0,  }
       },
       {
@@ -248,8 +248,8 @@ export const campers = [
         },
         Riesgo: false,
         grupo: "P_1",
-        notas: { Pruebatéorica: 0,
-          PruebaPráctica: 0,
+        notas: { "Pruebatéorica": 0,
+           
           Evaluaciones: 0, }
       },
       {
@@ -271,8 +271,8 @@ export const campers = [
         },
         Riesgo: true,
         grupo: "P_1",
-        notas: { Pruebatéorica: 0,
-          PruebaPráctica: 0,
+        notas: { "Pruebatéorica": 0,
+           
           Evaluaciones: 0, }
       },
       {
@@ -294,8 +294,8 @@ export const campers = [
         },
         Riesgo: false,
         grupo: "P_1",
-        notas: { Pruebatéorica: 0,
-          PruebaPráctica: 0,
+        notas: { "Pruebatéorica": 0,
+           
           Evaluaciones: 0, }
       },
       {
@@ -317,8 +317,8 @@ export const campers = [
         },
         Riesgo: false,
         grupo: "P_2",
-        notas: { Pruebatéorica: 0,
-          PruebaPráctica: 0,
+        notas: { "Pruebatéorica": 0,
+           
           Evaluaciones: 0, }
       },
     
@@ -342,8 +342,8 @@ export const campers = [
         },
         Riesgo: false,
         grupo: "M_1",
-        notas: { Pruebatéorica: 0,
-          PruebaPráctica: 0,
+        notas: { "Pruebatéorica": 0,
+           
           Evaluaciones: 0, }
       },
       {
@@ -365,8 +365,8 @@ export const campers = [
         },
         Riesgo: false,
         grupo: "M_1",
-        notas: { Pruebatéorica: 0,
-          PruebaPráctica: 0,
+        notas: { "Pruebatéorica": 0,
+           
           Evaluaciones: 0, }
       },
       {
@@ -388,8 +388,8 @@ export const campers = [
         },
         Riesgo: false,
         grupo: "M_1",
-        notas: { Pruebatéorica: 0,
-          PruebaPráctica: 0,
+        notas: { "Pruebatéorica": 0,
+           
           Evaluaciones: 0, }
       },
       {
@@ -411,8 +411,8 @@ export const campers = [
         },
         Riesgo: false,
         grupo: "M_1",
-        notas: { Pruebatéorica: 0,
-          PruebaPráctica: 0,
+        notas: { "Pruebatéorica": 0,
+           
           Evaluaciones: 0, }
       },
       {
@@ -434,8 +434,8 @@ export const campers = [
         },
         Riesgo: true,
         grupo: "M_1",
-        notas: { Pruebatéorica: 0,
-          PruebaPráctica: 0,
+        notas: { "Pruebatéorica": 0,
+           
           Evaluaciones: 0, }
       },
       {
@@ -458,8 +458,8 @@ export const campers = [
         Riesgo: false,
         grupo: "P_3",
         notas: {
-          Pruebatéorica: 0,
-          PruebaPráctica: 0,
+         
+           
           Evaluaciones: 0, 
         }
       },
@@ -483,8 +483,8 @@ export const campers = [
         Riesgo: false,
         grupo: "P_3",
         notas: {
-          Pruebatéorica: 0,
-          PruebaPráctica: 0,
+         
+           
           Evaluaciones: 0, 
         }
       },
@@ -508,8 +508,8 @@ export const campers = [
         Riesgo: false,
         grupo: "P_3",
         notas: {
-          Pruebatéorica: 0,
-          PruebaPráctica: 0,
+         
+           
           Evaluaciones: 0, 
         }
       },
@@ -533,8 +533,8 @@ export const campers = [
         Riesgo: false,
         grupo: "P_3",
         notas: {
-          Pruebatéorica: 0,
-          PruebaPráctica: 0,
+         
+           
           Evaluaciones: 0, 
         }
       },
@@ -558,8 +558,8 @@ export const campers = [
         Riesgo: false,
         grupo: "P_3",
         notas: {
-          Pruebatéorica: 0,
-          PruebaPráctica: 0,
+         
+           
           Evaluaciones: 0, 
         }
       },

@@ -15,7 +15,7 @@ export function mostrarEstudiantesPorProfesor(nombreProfesor) {
     });
     alert(mensaje);
   } else {
-    alert(` No se encontraron estudiantes asignados al profesor ${nombreProfesor}.`);
+    alert(" No se encontraron estudiantes asignados al profesor ${nombreProfesor}");
   }
 }
 
@@ -34,7 +34,7 @@ export function trainerAgregarNotasp(nombreProfesor)  {
 
   const promedio = (teoria * 0.3) + (practica * 0.6) + (evaluacion * 0.1);
 
-  alert(`📊 Promedio final: ${promedio.toFixed(2)}\n${promedio >= 60 ? "✅ Aprobado" : "❌ Reprobado"}`);
+  alert(`Promedio final: ${promedio.toFixed(2)}\n${promedio >= 60 ? "Aprobado" : "Reprobado"}`);
 
   // Por ahora se guarda en módulo1 como ejemplo
   camper.notas.modulo1 = promedio;
@@ -58,11 +58,7 @@ export function subMenuTrainer(nombre) {
   let opcion;
   do {
     opcion = prompt(
-      `Bienvenido trainer ${nombre}\n` +
-      "1. Agregar notas a clase\n" +
-      "2. Ver su horario\n" +
-      "3. Ver estudiantes\n" +
-      "4. Salir"
+      "Bienvenido trainer ${nombre}\n 1. Agregar notas a clase\n2. Ver su horario\n3. Ver estudiantes\n 4. Salir"
     );
 
     switch (opcion) {

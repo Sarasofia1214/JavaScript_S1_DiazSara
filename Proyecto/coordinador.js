@@ -262,35 +262,32 @@ export function menuCoordinador() {
       "7. Eliminar módulos\n" +
       "8. Volver al menú principal"
     );
-
-    // Realizar la acción correspondiente con un switch
     switch (opcion) {
       case "1":
-        agregarNotasPruebaInscripcion();  // Llama la función para agregar notas
+        agregarNotasPruebaInscripcion();  
         break;
       case "2":
-        agregarTrainer();  // Llama la función para agregar trainers
+        agregarTrainer();  
         break;
       case "3":
-        agregarModulo();  // Llama la función para agregar módulos
+        agregarModulo();  
         break;
       case "4":
-        moduloMatriculas();  // Llama la función para módulo matrículas
+        moduloMatriculas();  
         break;
       case "5":
-        moduloReportes();  // Llama la función para módulo reportes
+        moduloReportes(); 
         break;
       case "6":
-        eliminarTrainer();  // Llama la función para eliminar trainers
+        eliminarTrainer(); 
         break;
       case "7":
-        eliminarModulo();  // Llama la función para eliminar módulos
+        eliminarModulo();  
         break;
       case "8":
-        alert("Volviendo al menú principal...");  // Mensaje para volver al menú principal
         break;
       default:
-        alert("❌ Opción inválida. Por favor, elija una opción válida.");
+        alert(" Opción incorrecta.");
     }
-  } while (opcion !== "8");  // El ciclo sigue hasta que se elige la opción 8
+  } while (opcion !== "8"); 
 }
