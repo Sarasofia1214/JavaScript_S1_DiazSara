@@ -1,3 +1,4 @@
+// Inscribir al camper
 export function inscribirCamper(lista) {
   const nuevoCamper = {
     ID: parseInt(prompt("Ingrese su número de identificación:")),
@@ -27,7 +28,7 @@ export function inscribirCamper(lista) {
   lista.push(nuevoCamper);
   alert("El camper ha sido inscrito");
 }
-
+// Mostrar perfil
 export function mostrarPerfilCamper(lista) {
   const idBuscado = parseInt(prompt("Ingrese su número de documento:"));
   const camper = lista.find(camper => camper.ID == idBuscado);
@@ -55,7 +56,7 @@ export function mostrarPerfilCamper(lista) {
     alert("No se encontró ningún camper");
   }
 }
-
+// Retirarse de campus
 export function salirCampus(lista) {
   const id = parseInt(prompt("Ingrese el número de documento del camper que desea sacar del campus:"));
   const camper = lista.find(camperd => camperd.ID == id);

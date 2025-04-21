@@ -73,8 +73,9 @@ export const campers = [
         Riesgo: false,
         grupo: "S_1",
         notas: {
-         
-           
+
+          "Prueba téorica": 0,
+          "Prueba Práctica": 0,
           Evaluaciones: 0, 
         }
     },
