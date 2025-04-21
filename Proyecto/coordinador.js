@@ -1,14 +1,13 @@
 import { campers } from "./info_camper.js";
 import { salones } from "./salones.js";
 
-// Función que agrega la nota de inscripción y cambia el estado del camper si aprueba
 export function agregarNotasPruebaInscripcion() {
   const id = prompt("Ingrese el ID del camper para registrar la nota:");
-  console.log("Buscando camper con ID:", id); // Para verificar el ID ingresado
-  const camper = campers.find(c => c.ID === Number(id));
+  alert ("Buscando camper con ID:", id); 
+  const camper = campers.find(c => c.ID == Number(id));
 
   if (camper) {
-    console.log("Camper encontrado:", camper); // Verifica si se encuentra el camper
+    alert ("Camper encontrado:", camper); 
     const nota = Number(prompt(`Ingrese la nota de inscripción para ${camper.Nombre} ${camper.Apellido}:`));
 
     if (!isNaN(nota) && nota >= 0 && nota <= 100) {
@@ -20,28 +19,21 @@ export function agregarNotasPruebaInscripcion() {
         alert(`El camper ${camper.Nombre} no aprobó la prueba de inscripción.`);
       }
     } else {
-      alert("Ingrese una nota válida entre 0 y 100.");
+      alert("Ingrese una nota");
     }
   } else {
     alert("No se encontró un camper con ese ID.");
   }
-}
-
-// Estructura en memoria para los trainers
-let trainers = {
-  "Trainers": {}
 };
 
-// Función para agregar un nuevo trainer
+// Agregar un nuevo trainer
 export function agregarTrainer() {
   const nomtn = prompt("Ingrese el nombre del nuevo trainer:");
   const salonn = prompt("Ingrese el salón del nuevo trainer:");
   const fechain = prompt("Digite la fecha de inicio:");
   const fechafn = prompt("Digite la fecha de finalización:");
   const horarion = prompt("Ingrese el horario:");
-  const rutan = prompt("Ingrese la ruta a seguir (Java, NodeJS, .NET):");
-
-  // Agregar el nuevo trainer a la estructura
+  const rutan = prompt("Ingrese la ruta a seguir:");
   trainers["Trainers"][salonn] = {
     "Profesor": nomtn,
     "Salon": salonn,
@@ -50,45 +42,41 @@ export function agregarTrainer() {
     "Horario": horarion,
     "Ruta": rutan
   };
-
   alert(`El trainer ${nomtn} ha sido agregado al salón ${salonn}.`);
 }
-
+// Nuevo modulo
 export function agregarModulo() {
-  if (salones.length === 0) {
+  if (salones.length == 0) {
     alert("No hay salones registrados.");
     return;
   }
+  let mensaje = "Salones disponibles:\n";
+  salones.forEach((salon, i) => {
+    mensaje += `${i + 1}. ${salon.Salon} - Grupo ${salon.grupo}\n`;
+  });
 
-  // Mostrar salones disponibles
-  let listaSalones = salones.map((s, i) => `${i + 1}. ${s.Salon} - Grupo ${s.grupo}`).join("\n");
-  let opcion = prompt(`Salones disponibles:\n${listaSalones}\n\nElige el número del salón:`);
-
+  let opcion = prompt(`${mensaje}\nElige el número del salón:`);
   let indice = Number(opcion) - 1;
 
-  if (!isNaN(indice) && salones[indice]) {
+  if (salones[indice]) {
     let modulo = prompt("Escribe el nombre del nuevo módulo:");
-
-    if (modulo && modulo.trim() !== "") {
+    if (modulo) {
       salones[indice].Modulos.push(modulo.trim());
-      alert(`✅ Módulo "${modulo}" agregado al salón ${salones[indice].Salon}.`);
+      alert(`Módulo "${modulo}" agregado al salón ${salones[indice].Salon}.`);
     } else {
-      alert("⚠️ Módulo inválido.");
+      alert("Nombre de módulo inválido.");
     }
   } else {
-    alert("❌ Opción inválida.");
+    alert("Opción inválida.");
   }
 }
 
 export function moduloMatriculas() {
-  // Filtrar campers aprobados
   const aprobados = campers.filter(c => c.Estado?.Aprobado);
   if (aprobados.length === 0) {
     alert("No hay campers aprobados.");
     return;
   }
-
-  // Mostrar campers aprobados
   const camperSeleccion = prompt("Campers aprobados:\n" +
     aprobados.map((c, i) => `${i + 1}. ${c.Nombre} ${c.Apellido} (ID: ${c.ID})`).join("\n") +
     "\n\nIngrese el número del camper que desea asignar:");
@@ -98,8 +86,6 @@ export function moduloMatriculas() {
     alert("Número de camper no válido.");
     return;
   }
-
-  // Mostrar salones disponibles con índice
   const salonSeleccion = prompt("Salones disponibles:\n" +
     salones.map((s, i) => `${i + 1}. ${s.Salon} (Grupo ${s.grupo}) - ${s.Profesor}`).join("\n") +
     "\n\nIngrese el número del salón para asignar:");
@@ -109,14 +95,11 @@ export function moduloMatriculas() {
     alert("Número de salón no válido.");
     return;
   }
-
-  // Asignar grupo al camper
   camper.Grupo = salon.grupo;
 
   alert(`${camper.Nombre} fue asignado al grupo ${salon.grupo} con el profesor ${salon.Profesor}.`);
 }
 
-// Función para el módulo de reportes (sin implementar aún)
 export function moduloReportes() {
   let opcion;
   do {
@@ -247,12 +230,12 @@ export function eliminarModulo() {
   }
 }
 
-// Función del menú coordinador
+// Menú coordinador
 export function menuCoordinador() {
   let opcion;
   do {
     opcion = prompt(
-      "📋 Menú Coordinador\n" +
+      "Menú Coordinador\n" +
       "1. Agregar notas prueba de inscripción\n" +
       "2. Agregar trainers\n" +
       "3. Agregar módulos\n" +

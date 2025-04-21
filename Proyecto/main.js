@@ -26,9 +26,7 @@ function menuCamper() {
 // ciclo do-while (correr el código hasta que se cumpla la condición)
   do {
     opcion2 = prompt(
-      "Ingrese el número de la opción:\n 1. Ingresar al perfil\n 2. Inscribirse\n3. Salir del campus\n 4. Salir"
-    );
-
+      "Ingrese el número de la opción:\n 1. Ingresar al perfil\n 2. Inscribirse\n3. Salir del campus\n 4. Salir" );
     switch (opcion2) {
       case "1":
         mostrarPerfilCamper(campers);

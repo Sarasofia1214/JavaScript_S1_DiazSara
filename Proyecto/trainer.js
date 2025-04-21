@@ -1,27 +1,28 @@
 import { salones } from "./salones.js";
 import { campers } from "./info_camper.js";
-
-export function mostrarEstudiantesPorProfesor(nombreProfesor) {
-  const grupos = salones
-    .filter(salon => salon.Profesor === nombreProfesor)
-    .map(salon => salon.grupo);
+// Mostrar camper
+export function mostrarCampers(nombreTrainer) {
+  const grupos = [];
+  for (const salon of salones) {
+    if (salon.Profesor == nombreTrainer) {
+      grupos.push(salon.grupo);
+ } }
 
   const estudiantes = campers.filter(camper => grupos.includes(camper.grupo));
 
   if (estudiantes.length > 0) {
-    let mensaje = `Estudiantes del profesor ${nombreProfesor}:\n\n`;
-    estudiantes.forEach(c => {
-      mensaje += ` ${c.Nombre} ${c.Apellido} - Grupo: ${c.grupo}\n`;
-    });
+    let mensaje = `Estudiantes del trainer ${nombreTrainer}:\n`;
+    estudiantes.forEach(camper => {
+      mensaje += ` ${camper.Nombre} ${camper.Apellido} - Grupo: ${camper.grupo}\n` });
     alert(mensaje);
   } else {
-    alert(" No se encontraron estudiantes asignados al profesor ${nombreProfesor}");
+    alert(" No se encontraron estudiantes asignados al trainer" + nombreTrainer);
   }
 }
-
-export function trainerAgregarNotasp(nombreProfesor)  {
+// Asignar notas
+export function trainerAgregarNotasp(nombreTrainer)  {
   const idCamper = Number(prompt("Ingrese el ID del camper a calificar:"));
-  const camper = campers.find(c => c.ID === idCamper);
+  const camper = campers.find(campert => campert.ID === idCamper);
 
   if (!camper) {
     alert("Camper no encontrado.");
@@ -34,23 +35,19 @@ export function trainerAgregarNotasp(nombreProfesor)  {
 
   const promedio = (teoria * 0.3) + (practica * 0.6) + (evaluacion * 0.1);
 
-  alert(`Promedio final: ${promedio.toFixed(2)}\n${promedio >= 60 ? "Aprobado" : "Reprobado"}`);
-
-  // Por ahora se guarda en módulo1 como ejemplo
-  camper.notas.modulo1 = promedio;
+  alert(`Promedio final: ${promedio >= 60 ? "Aprobado" : "Reprobado"}`);
 }
 
-export function trainerVerHorarioP(nombreProfesor) {
-  const salonesDelProfesor = salones.filter(salon => salon.Profesor === nombreProfesor);
+export function trainerVerHorarioP(nombreTrainer) {
+  const salonesDelProfesor = salones.filter(salon => salon.Profesor == nombreTrainer);
 
   if (salonesDelProfesor.length > 0) {
-    let mensaje = ` Horario de ${nombreProfesor}:\n\n`;
+    let mensaje = ` Horario de ${nombreTrainer}:\n`;
     salonesDelProfesor.forEach(salon => {
-      mensaje += `Grupo ${salon.grupo} - Horario: ${salon.Horario.join(" / ")}\n`;
-    });
+      mensaje += `Grupo ${salon.grupo} - Horario: ${salon.Horario}\n`});
     alert(mensaje);
   } else {
-    alert(` No se encontró horario para ${nombreProfesor}`);
+    alert(` No hay horario para ${nombreTrainer}`);
   }
 }
 
@@ -58,8 +55,7 @@ export function subMenuTrainer(nombre) {
   let opcion;
   do {
     opcion = prompt(
-      "Bienvenido trainer ${nombre}\n 1. Agregar notas a clase\n2. Ver su horario\n3. Ver estudiantes\n 4. Salir"
-    );
+      `Bienvenido trainer ${nombre}\n 1. Agregar notas a clase\n2. Ver su horario\n3. Ver estudiantes\n 4. Salir`);
 
     switch (opcion) {
       case "1":
@@ -69,7 +65,7 @@ export function subMenuTrainer(nombre) {
         trainerVerHorarioP(nombre);
         break;
       case "3":
-        mostrarEstudiantesPorProfesor(nombre);
+        mostrarCampers(nombre);
         break;
       case "4":
         break;
