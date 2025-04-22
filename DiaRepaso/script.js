@@ -10,16 +10,16 @@ let id_pokemon = 1;
 
 const fetchPokemon = async (pokemon) =>{
 
-    const APIResponse = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon}`);
+    const estado = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon}`);
     
 
-    if(APIResponse.status == 200){
-        const data = await APIResponse.json();
+    if(estado.status == 200){
+        const data = await estado.json();
         return data;
     }
 }
 
-const renderPokemon = async (pokemon) => {
+const pokemoname= async (pokemon) => {
     Nombrepoke.innerHTML = 'Loading...';
     Numeropoke.innerHTML ='';
 
@@ -38,23 +38,18 @@ const renderPokemon = async (pokemon) => {
         Numeropoke.innerHTML= '';
     }
 }
-form.addEventListener('submit', (event)=>{
-    event.preventDefault();
-    renderPokemon(respuesta.value.toLowerCase());
-})
-
 prev.addEventListener('click',()=>{
     if (id_pokemon >1){
         id_pokemon -= 1;
-        renderPokemon(id_pokemon);
+        pokemoname(id_pokemon);
     }
 });
 
 next.addEventListener('click',()=>{
     
         id_pokemon += 1;
-        renderPokemon(id_pokemon);
+        pokemoname(id_pokemon);
     
 });
 
-renderPokemon(id_pokemon);
+pokemoname(id_pokemon);
