@@ -26,7 +26,7 @@ const pokemoname= async (pokemon) => {
     const data = await fetchPokemon(pokemon);
 
     if (data){
-        Pokemon.style.display='block';
+      
         Nombrepoke.innerHTML=data.name;
         Numeropoke.innerHTML = data.id;
         Pokemon.src = data['sprites']['versions']['generation-v']['black-white']['animated']['front_default'];
@@ -34,10 +34,16 @@ const pokemoname= async (pokemon) => {
         id_pokemon=data.id;
     }else{
         Pokemon.style.display='none';
-        Nombrepoke.innerHTML="Not Find";
+        Nombrepoke.innerHTML="Not Found";
         Numeropoke.innerHTML= '';
     }
 }
+form.addEventListener('submit', (event)=>{
+    event.preventDefault();
+    pokemoname(respuesta.value.toLowerCase());
+})
+
+
 prev.addEventListener('click',()=>{
     if (id_pokemon >1){
         id_pokemon -= 1;
