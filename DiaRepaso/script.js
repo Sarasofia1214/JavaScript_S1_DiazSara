@@ -1,18 +1,13 @@
-const Nombrepoke = document.querySelector('.Nombre');
-const Numeropoke = document.querySelector('.Numero');
-const Pokemon = document.querySelector('.Pokemon');
-const form = document.querySelector('.formulario');
-const respuesta = document.querySelector('.busqueda');
-const prev = document.querySelector('.previo');
-const next = document.querySelector('.siguiente');
-
+let Nombrepoke = document.querySelector('.Nombre');
+let Numeropoke = document.querySelector('.Numero');
+let Pokemon = document.querySelector('.Pokemon');
+let form = document.querySelector('.formulario');
+let prev = document.getElementById("previo");
+let next = document.getElementById("siguiente");
 let id_pokemon = 1;
 
-const fetchPokemon = async (pokemon) =>{
-
+const fetchPokemon = async function(pokemon){
     const estado = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon}`);
-    
-
     if(estado.status == 200){
         const data = await estado.json();
         return data;
@@ -21,7 +16,7 @@ const fetchPokemon = async (pokemon) =>{
 
 const pokemoname= async (pokemon) => {
     Nombrepoke.innerHTML = 'Loading...';
-    Numeropoke.innerHTML ='';
+
 
     const data = await fetchPokemon(pokemon);
 
@@ -35,16 +30,19 @@ const pokemoname= async (pokemon) => {
     }else{
         Pokemon.style.display='none';
         Nombrepoke.innerHTML="Not Found";
-        Numeropoke.innerHTML= '';
+     
     }
 }
-form.addEventListener('submit', (event)=>{
+form.addEventListener('submit', function(event){
+    
+    let respuesta = document.getElementById("busqueda");
     event.preventDefault();
     pokemoname(respuesta.value.toLowerCase());
 })
 
 
-prev.addEventListener('click',()=>{
+prev.addEventListener('click',function(){
+    
     if (id_pokemon >1){
         id_pokemon -= 1;
         pokemoname(id_pokemon);
@@ -52,6 +50,7 @@ prev.addEventListener('click',()=>{
 });
 
 next.addEventListener('click',()=>{
+
     
         id_pokemon += 1;
         pokemoname(id_pokemon);
