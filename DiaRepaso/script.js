@@ -8,14 +8,14 @@ let id_pokemon = 1;
 
 const fetchPokemon = async function(pokemon){
     const estado = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon}`);
-    if(estado.status == 200){
+    if(estado.status === 200){
         const data = await estado.json();
         return data;
     }
 }
 
 const pokemoname= async (pokemon) => {
-    Nombrepoke.innerHTML = 'Loading...';
+    Nombrepoke.innerHTML = 'Loading. .';
 
 
     const data = await fetchPokemon(pokemon);
