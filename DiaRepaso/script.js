@@ -6,6 +6,7 @@ let prev = document.getElementById("previo");
 let next = document.getElementById("siguiente");
 let id_pokemon = 1;
 
+
 const fetchPokemon = async function(pokemon){
     const estado = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon}`);
     if(estado.status === 200){
