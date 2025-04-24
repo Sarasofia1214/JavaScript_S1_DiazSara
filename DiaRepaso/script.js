@@ -10,10 +10,13 @@ const fetchPokemon = async function(pokemon){
     const estado = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon}`);
     if(estado.status === 200){
         const data = await estado.json();
-        return data;
+        return data;}
+    else{
+        Pokemon.style.display='none';
+        Numeropoke.innerHTML= '';
+        Nombrepoke.innerHTML="Not Found";
     }
 }
-
 const pokemoname= async (pokemon) => {
     Nombrepoke.innerHTML = 'Loading. .';
 
@@ -24,20 +27,20 @@ const pokemoname= async (pokemon) => {
       
         Nombrepoke.innerHTML=data.name;
         Numeropoke.innerHTML = data.id;
-        Pokemon.src = data['sprites']['versions']['generation-v']['black-white']['animated']['front_default'];
-        respuesta.value='';
+        Pokemon.src = data['sprites']['versions']['generation-v']['black-white']['animated']['front_shiny'];
         id_pokemon=data.id;
     }else{
-        Pokemon.style.display='none';
-        Nombrepoke.innerHTML="Not Found";
-     
+        Pokemon.src = data['sprites']['versions']['generation-v']['black-white']['animated']['front_shiny'] === null;
+
     }
-}
+    }
+
 form.addEventListener('submit', function(event){
     
     let respuesta = document.getElementById("busqueda");
     event.preventDefault();
     pokemoname(respuesta.value.toLowerCase());
+    respuesta.value=``
 })
 
 
@@ -50,11 +53,8 @@ prev.addEventListener('click',function(){
 });
 
 next.addEventListener('click',()=>{
-
-    
-        id_pokemon += 1;
-        pokemoname(id_pokemon);
+    id_pokemon += 1;
+    pokemoname(id_pokemon);
     
 });
-
 pokemoname(id_pokemon);
