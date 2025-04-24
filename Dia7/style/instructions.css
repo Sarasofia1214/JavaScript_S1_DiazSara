@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "Font";
+    src: url(../Font/Poker2.otf);
+}
+@font-face {
+    font-family: "Font2";
+    src: url(../Font/Poker.ttf);
+}
+
+body{
+    margin: 0%;
+}
+#background{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+#Title{
+    position: absolute;
+    color:rgb(255, 255, 255) ;
+    text-shadow: 10px 10px 20px rgb(0, 0, 0);
+    font-family:"Font2";
+    font-size: 7vw;
+    left: 54.5%;
+    top: -1.5vw;
+    font-weight: 600;
+    letter-spacing: 0.5vw;
+}
+#content{
+    position: absolute;
+    font-size: 2vw;
+    top: 15vw;
+    font-family:sans-serif;
+    color: white;
+    left: 54vw;
+    text-align: center;
+    width: 45%;
+    font-weight: 100;
+    line-height: 2.5vw;
+}
+#buttom{
+    padding: 1vw;
+    width: 14vw;
+    align-content: center;
+    bottom: 3vw;
+    left: 70%;
+    border-radius: 1vw;
+    color: aliceblue;
+    font-size: 3vw;
+    font-family:"Font2";
+    border: 0.1vw solid white;
+    background-color: rgb(255, 0, 0);
+    position: fixed;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
