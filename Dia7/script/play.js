@@ -15,12 +15,21 @@ async function mostrarCarta(ID){
     let card = document.getElementById("card_yo")
     card.src = data["cards"][0]["image"]
 }
+
+async function mostrarCartas(ID){
+    let response = await fetch(`https://www.deckofcardsapi.com/api/deck/${ID}/draw/?count=2`);
+    let data = await response.json();
+    let cards = document.getElementById("card_rest")
+    cards.src = data["cards"][0]["image"]
+}
+
 async function empezarJuego(){
     let deckID = await llamarAPI()
     mostrarCarta(deckID)
+    mostrarCartas(deckID)
 }
 
-empezarJuego();
+empezarJuego(); 
 
 
 
