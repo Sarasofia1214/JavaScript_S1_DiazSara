@@ -13,6 +13,10 @@ body{
     top: 0%;
     position: fixed;
 }
+button{
+    background: none;
+    
+}
 #buttom_box_black {
     background: rgb(14, 11, 11);
     width: 15vw;
@@ -49,17 +53,17 @@ body{
 #buttom_box_green {
     left: 44.5vw;
     top: 29vw;
-    border-left: 90px solid transparent;
-    border-right: 90px solid transparent;
-    border-bottom: 83px solid rgb(32, 235, 25);
+    border-left: 6vw solid transparent;
+    border-right: 6vw solid transparent;
+    border-bottom: 6.5vw solid rgb(0, 253, 34);
     position: absolute;
 }
 #buttom_box_red {
     left: 44.5vw;
     top: 39vw;
-    border-left: 90px solid transparent;
-    border-right: 90px solid transparent;
-    border-bottom: 83px solid rgb(253, 0, 0);
+    border-left: 6vw solid transparent;
+    border-right: 6vw solid transparent;
+    border-bottom: 6.6vw solid rgb(253, 0, 0);
     position: absolute;
     transform: rotate(180deg);
 }
