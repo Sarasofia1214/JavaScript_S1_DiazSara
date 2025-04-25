@@ -76,3 +76,12 @@ button{
     font-weight: 900;
     color: white;
 }
+
+#card {
+    width: 10vw;
+    position: absolute;
+}
+#img_yo{
+    position: absolute;
+    width: 10vw;
+}
