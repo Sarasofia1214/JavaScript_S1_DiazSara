@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Font";
-    src: url(../Font/Poker.ttf);
+    src: url(../Font/Amazon\ Ember\ V2\ Bold.woff);
 }
 
 body{
@@ -13,22 +13,62 @@ body{
     top: 0%;
     position: fixed;
 }
-#buttom_box{
-    background-color: aliceblue;
+#buttom_box_black {
+    background: rgb(14, 11, 11);
+    width: 15vw;
+    height: 15vw;
     position: absolute;
+    left: 43.5vw;
+    top: 29.5vw;
+    transform: rotate(45deg);
+}
+#buttom_box_black_circule{
+   
+    background: rgb(14, 11, 11);
+    border-radius: 50%;
+    width: 6vw;
+    height: 6vw;
+    left: 48vw;
+    top: 34vw;
+    position: absolute;
+}
+#buttom_box_white_circule{
+   
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    width: 2vw;
+    height: 2vw;
+    top: 2vw;
+    left: 2vw;
+    align-content: center;
+    text-align: center;
+    position: absolute;
+    font-family: "Font";
+    font-weight: 900;
 }
 #buttom_box_green {
-    width: 0;
-    height: 0;
-    border-left: 70px solid transparent;
-    border-right: 70px solid transparent;
-    border-bottom: 60px solid lightblue;
+    left: 44.5vw;
+    top: 29vw;
+    border-left: 90px solid transparent;
+    border-right: 90px solid transparent;
+    border-bottom: 83px solid rgb(32, 235, 25);
     position: absolute;
 }
-#buttom_box_black {
-    background: rgb(0, 0, 0);
-    width: 15%;
-    height: 20%;
+#buttom_box_red {
+    left: 44.5vw;
+    top: 39vw;
+    border-left: 90px solid transparent;
+    border-right: 90px solid transparent;
+    border-bottom: 83px solid rgb(253, 0, 0);
     position: absolute;
-    transform: rotate(50deg);
+    transform: rotate(180deg);
+}
+#buttom_box_text{
+    position: absolute;
+    left: 42.8vw;
+    top: 34vw;
+    font-family: "Font";
+    font-size: 2vw;
+    font-weight: 900;
+    color: white;
 }
