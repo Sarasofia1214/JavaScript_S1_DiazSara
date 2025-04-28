@@ -2,7 +2,10 @@
     font-family: "Font";
     src: url(../Font/Amazon\ Ember\ V2\ Bold.woff);
 }
-
+@font-face {
+    font-family: "Font2";
+    src: url(../Font/Poker.ttf);
+}
 body{
     margin: 0%;
     padding: 0%;
@@ -85,17 +88,52 @@ button{
     top: 10vw;
     position: absolute;
 }
-#img_yo{
-    position: absolute;
-    width: 10vw;
-}
+
 #cards {
     width: 10vw;
     left: 65vw;
     top: 10vw;
     position: absolute;
 }
-#img_yo{
+
+#score_button {
     position: absolute;
-    width: 10vw;
+    right: 3vw;
+    top: 1vw;
+    padding: 1vw;
+    letter-spacing: 0.2vw;
+    background-color:rgb(23, 214, 49);
+    color: white;
+    border-radius: 30vw; 
+    font-size: 1.5vw;
+ font-family: "Font2";
+   
+}
+
+
+#restart_button {
+    background-color: #df2b2b;
+    color: white;
+    font-family: "Font2";
+    letter-spacing: 0.2vw;
+    padding: 1vw;
+    border-radius: 5vw;
+    font-size: 1.5vw;
+    left: 3vw;
+    top: 1vw;
+    position: absolute;
+}
+
+#card_rest{
+    position: absolute;
+    width: 13vw;
+    left: -37vw;
+    top: 1vw;
+
+}
+#card_yo{
+    position: absolute;
+    top: 1vw;
+    width: 13vw;
+    left: -2vw;
 }

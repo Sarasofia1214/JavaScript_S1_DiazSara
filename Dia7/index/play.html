@@ -5,22 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Higher or Lower</title>
     <link rel="stylesheet" href="../style/play.css">
+</head>
 <body>
     <div id="main_seccion">
         <img id="background" src="../images/fondo.png" alt="">
 
-        <div id="card">
-            <img id="card_yo">
-        </div>
-
         <div id="cards">
-            <img id="card_rest">
+            <div id="card_left">
+                <img id="card_yo" src="">
+            </div>
+            <div id="card_right">
+                <img id="card_rest" src="https://www.divulgamat.net/html/images/dorso5c.jpg" alt="Carta volteada">
+            </div>
         </div>
-
-
-        <!--<div id="card">
-            <img id="card_yo" src="../images/logo.png">
-        </div>-->
 
         <div id="buttom_box">
             <div id="buttom_box_black">            </div>
@@ -30,10 +27,11 @@
                 <div id="buttom_box_white_circule">OR</div>
             </div>
             <div id="buttom_box_text"><pre>HIGHER   LOWER</pre></div>
+
+            <button id="score_button">Puntos: 0</button>
+            <button id="restart_button">Reiniciar Juego</button>
         </div>
-
-
     </div>
+    <script src="../script/play.js"></script>
 </body>
-<script src="../script/play.js"></script>
 </html>
