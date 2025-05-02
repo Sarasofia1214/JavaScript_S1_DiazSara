@@ -40,9 +40,8 @@ function showArts() {
     if (action === "get") {
       showArts();
     }
-    else if (action === "put"){
-        editArts();
-    }
+   
+    
   });
 document.querySelector('#Formedit').addEventListener('submit', function(event) {
     event.preventDefault(); 
