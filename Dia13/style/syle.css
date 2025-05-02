@@ -1,0 +1,51 @@
+@import url(../style/variables.css);
+
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Font";
+}
+h2{
+    color: var(--color3);
+    font-size: 4vw;
+
+}
+
+.search_section{
+    background-color: var(--color1);
+    padding: 30px;
+    text-align: center;
+
+}
+#search_section_text{
+    color: var(--color3);
+    margin-top: 10vw;
+}
+#input_search{
+    padding: 9px;
+    width: 50vw;
+    border-radius: 20px;
+    border: none;
+}
+
+.people_menu{
+    display: flex ;
+    flex-direction: row;
+    margin-top: 2vw;
+    border: 1px solid var(--color1);
+    padding-top: 30px;
+}
+.photo{
+    width: 80px;
+    border-radius: 50%;
+    margin-top: -1vw;
+    margin-left: 1vw;
+    padding: 0.5vw;
+}
+
+.information{
+    text-align: center;
+    align-items: center;
+    margin-left: 3vw;
+    
+}

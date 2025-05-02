@@ -1,0 +1,10 @@
+:root{
+    --color1: rgb(63, 63, 201);
+    --color2: black;
+    --color3: white 
+}
+@font-face {
+    font-family: "Font";
+    src: url(../storage/Montserrat-VariableFont_wght.ttf);
+}
+
