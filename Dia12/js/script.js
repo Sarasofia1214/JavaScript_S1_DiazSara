@@ -43,16 +43,3 @@ function showArts() {
    
     
   });
-document.querySelector('#Formedit').addEventListener('submit', function(event) {
-    event.preventDefault(); 
-    let Id = document.getElementById("id").value;
-    let Newtitle =document.getElementById("title").value;
-    let Newpicture=document.getElementById("picture").value;
-  
-    const newData = {
-      Title: Newtitle,
-      Picture:Newpicture
-    };
-  
-    editArts(Id, newData);
-  });
