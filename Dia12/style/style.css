@@ -4,3 +4,11 @@ img{
  .fromedir{
     display: none;
  }
+ a{
+    text-decoration: none;
+    color: black;
+ }
+ body{
+    margin: 1vw;
+    padding: 1vw;
+ }

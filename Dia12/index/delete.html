@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    
+    <h2>Delete an Artwork</h2>
+    <form id="deleteForm">
+      <label for="deleteId">Enter the ID of the artwork to delete:</label>
+      <input type="text" id="deleteId" required>
+      <button type="submit">Delete</button>
+    </form>
+  
+    <p id="message"></p>
+    <div><button><a href="../main.html">Back</a></button></div>
+</body>
+<script src="../js/delete.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</html>
