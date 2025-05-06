@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CRUD MARVEL</title>
     <link rel="stylesheet" href="./style/style.css">
 </head>
+
 <body>
     <div class="main_container">
-        <div><p class="title">Mis Heroes</p></div>
-        <div><h3 class="title2">Gestion de Heroes</h3></div>
+        <div>
+            <p class="title">Mis Heroes</p>
+        </div>
+        <div>
+            <h3 class="title2">Gestion de Heroes</h3>
+        </div>
         <div class="info_container">
             <div>
                 <p class="nombre_personaje">Nombre Personaje</p>
@@ -19,31 +25,53 @@
                 <p class="nombre_actor">Nombre Actor</p>
                 <input class="input_nombre_actor" type="text">
             </div>
+
             <div>
                 <p class="edad_actor">Edad Actor</p>
                 <input class="input_nombre_actor" type="number">
             </div>
+
             <div>
                 <p class="ubicacion">Ubicacion</p>
                 <input class="input_ubicacion" type="text">
+                <p class="ubicacion_text">Nombre de la ciudad de origen</p>
             </div>
+
             <div>
                 <p class="poster">Poster</p>
                 <input class="input_poster" type="url">
+
+            </div>
             <div>
-                 <p class="fecha">Fecha</p>
-                <input class="input_nombre_actor" type="date">
+                <p class="fecha">Fecha</p>
+                <input placeholder="dd/mm/yyyy" class="input_fecha" type="date">
             </div>
-            </div>
-            <div> 
-                <p class="productora">Productora</p>
-                <select id="option">
-                <option disabled selected>Choose an producer</option>
-                <option value="marvel">Marvel</option>
-                <option value="Dcomics">DComics</option>
-            </div>
+
+    
+
+
+
         </div>
+        <div class="productora_container">
+            <p class="productora">Productora</p>
+            <select id="option">
+                <option disabled selected class="text_select">Choose an producer</option>
+                <option value="marvel" class="text_select_marvel">Marvel</option>
+                <option value="Dcomics" class="text_select_dc">DCcomics</option>
+            </select> 
+      
+        </div>
+        <div class="botones_container">
+                <div><button class="boton_new">Nuevo Heroe</button></div>
+                <div><button class="boton_guardar">Guardar Heroe</button></div>
+                <div><button class="boton_cancelar">Cancelar</button></div>
+            </div>
+
+       
+
     </div>
+
 </body>
 <script src="./js/script.js"></script>
+
 </html>
