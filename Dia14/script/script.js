@@ -9,14 +9,14 @@ document.addEventListener("DOMContentLoaded"), ()=>{
         datoscontenedor.innerHTML=``;
         data.forEach(cap =>{
             const capDiv=document.createElement('div');
-            if (cap.status="On hold"){
+            if (cap.status="On Hold"){
                     capDiv.innerHTML=`
                 <div class="capsula">
                     <div class="text">
         <p>${cap.task}</p>
     </div>
     <div class="botones">
-        <div class="terminadonegativa">
+        <div class="terminado">
             <img class="completado" src="./storage/img/pngwing.com (2).png" alt="">
         </div>
         <div class="eliminado">
@@ -25,28 +25,13 @@ document.addEventListener("DOMContentLoaded"), ()=>{
         </div>
     </div>
     `;
-            } 
-            else{
-                if(cap.status=="ready"){`
-                    <div class="capsulanegativa">
-        <div class="text">
-            <p>${cap.task}</p>
-        </div>
-        <div class="botonesnegativa">
-        <div class="terminadonegativo">
-            <img class="completado" src="./storage/img/pngwing.com (2).png" data-id="${cap.id}" alt="">
-        </div>
-        <div class="eliminadonegativa">
-            <img class="eliminado" src="./storage/img/pngwing.com (3).png" data-id="${cap.id}" alt="">
-
-        </div>`
-                }
             }
             datoscontenedor.appendChild(capDiv);
                 })
     }
     fetchData().then(data=>{
         console.log(data);
-        displayCapsula(data);
+
+    displayCapsula(data);
     })
 }

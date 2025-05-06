@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "Font";
+    src: url(../storage/font/fonts/WorkSans-Regular.ttf);
+}
+@font-face {
+    font-family: "Font2";
+    src: url(../storage/font/fonts/Lato-Light.ttf);
+}
+body{
+    margin: 0%;
+    padding: 1%;
+
+}
+
+.main_container{
+  
+    width: 50vw;
+    height: 40vw;
+    margin-left: 25%;
+    border: 2px solid rgba(0, 0, 0, 0.356);
+    border-radius: 20px;
+}
+.title{
+    background-color: rgba(148, 147, 147, 0.164);
+    padding: 0.7vw;
+    margin-top: 0vw;
+    color: black;
+    font-family: "Font";
+    font-size: 0.9vw;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.267);
+}
+.title2{
+    font-family: "Font2";
+    font-size: 1vw;
+    margin-left: 1vw;
+}
