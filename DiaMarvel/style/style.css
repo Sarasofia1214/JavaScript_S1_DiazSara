@@ -231,6 +231,30 @@ input:not(:focus)  {
     padding: 5px;
     border-radius: 0.2vw;
     border: none;
+    width: 1.3vw;
     font-size: 1.3vw;
     margin-left: 1vw;
+}
+.nombre_traje{
+    color: blue;
+    font-family: "Font3";
+    font-size: 0.8vw;
+    padding-left: 5vw;
+}
+.nombre_traje_container{
+    width: 22vw;
+    height: 1.5vw;
+    border-radius: 12px;
+    border: 1px solid gray;
+    padding-left: 8vw;
+    margin-left: 5vw;
+}
+.menos{
+    background-color: rgb(218, 29, 29);
+    padding: 5px;
+    width: 1.3vw;
+    border-radius: 0.2vw;
+    border: none;
+    font-size: 1.3vw;
+    margin-left: 24vw;
 }
