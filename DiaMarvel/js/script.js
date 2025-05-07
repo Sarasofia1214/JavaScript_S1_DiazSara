@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     const botonNuevo = document.querySelector(".boton_new");
     const contenedor = document.querySelector(".registro");
+    const botonMenos = document.querySelector(".buttom_menos");
   
     botonNuevo.addEventListener("click", () => {
       contenedor.innerHTML = `
@@ -22,12 +23,20 @@ document.addEventListener("DOMContentLoaded", () => {
         const contenedorMas = document.querySelector(".buttom_mas");
         contenedorMas.innerHTML += ` 
           <div><p class="nombre_traje">Nombre Traje</p></div>
-          <div>
-           <input class="nombre_traje_container" type="text"><button class="menos">-</button></div>
+            <div>
+              <input class="nombre_traje_container" type="text"><button class="menos">-</button>
             </div>
           </div>
         `;
-      }
+      } 
+      
+    contenedor.addEventListener("click", (event) => {
+      if (event.target && event.target.classList.contains("menos")) {
+        document.querySelector(".buttom_menos").style.display = 'none';}})
     });
   });
+
+
+
+
   

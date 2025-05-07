@@ -235,6 +235,10 @@ input:not(:focus)  {
     font-size: 1.3vw;
     margin-left: 1vw;
 }
+
+.mas:hover{
+    cursor: pointer;
+}
 .nombre_traje{
     color: blue;
     font-family: "Font3";
@@ -256,5 +260,6 @@ input:not(:focus)  {
     border-radius: 0.2vw;
     border: none;
     font-size: 1.3vw;
-    margin-left: 24vw;
+    margin-left: 1vw;
+
 }
