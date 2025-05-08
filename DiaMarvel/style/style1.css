@@ -7,9 +7,11 @@
     src: url(../storage/font/fonts/Lato-BlackItalic.ttf);
 }
 body{
-    margin: 0%;
+    margin: 1%;
     padding: 0%;
     background-color: rgb(255, 255, 255);
+    overflow: scroll;
+    height: 100%;
 }
 .personajes_container{
     display: flex;
@@ -44,9 +46,21 @@ h1{
 .submit:hover{
     cursor: pointer;
 }
-.resultado{
+.resultado{ 
     display: flex;
     flex-direction: column;
-    background-color: aqua;
-    width: 50vw;
+    width: 16vw;
+    
+    align-items:center ;
+    padding-left: 3vw;
+    margin-left: 39vw;
+}
+img{
+    width: 10vw;
+    padding-inline: 4vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+h2{
+    font-family: "Font";
 }

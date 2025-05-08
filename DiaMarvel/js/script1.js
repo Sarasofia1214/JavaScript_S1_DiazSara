@@ -1,31 +1,38 @@
 document.querySelector(".form").addEventListener("submit", function (event) {
-    event.preventDefault();
-
-    axios.get(`https://6818a3a15a4b07b9d1d02100.mockapi.io/Marvel`)
-      .then(respuesta => {
-        const superhero = respuesta.data;
-        console.log(superhero)
-        document.querySelector(".resultado").innerHTML =
-        `
-          <h2>${superhero[0]['marvel'][0]['NameCharacter']}</h2>
-          <img src="${superhero[0]['marvel'][0]['poster']}">
-        `;
-      })
-      .catch(error => {
-        console.error(error);
-        alert("Superhero not found");
-      });
-  });
-
-//   fetch(`https://6818a3a15a4b07b9d1d02100.mockapi.io/Marvel`)
-//   .then(response => response.json())
+  event.preventDefault();
+  document.querySelector(".resultado").innerHTML = "";
   
-//   .then(data => {
-//     data.forEach(item => {
-//       item.marvel.forEach(character => {
-//         document.querySelector(".resultado").innerHTML =("Nombre:", character.NameCharacter);
 
-//       });
-//     });
-//   })
-//   .catch(error => console.error('Error al obtener datos:', error));
+  axios.get(`https://6818a3a15a4b07b9d1d02100.mockapi.io/Marvel`)
+    .then(respuesta => {
+      const superhero = respuesta.data;
+      const liga = document.getElementById("option").value;
+
+      if (liga == "Marvel") {
+        for (let i = 0; i < superhero.length; i++) {
+          if (superhero[i]["producer"] == "Marvel Studios") {
+            document.querySelector(".resultado").innerHTML += `
+              <h2>${superhero[i]['NameCharacter']}</h2>
+              <img src="${superhero[i]['poster']}" alt="${superhero[i]['NameCharacter']}">
+            `;
+          }
+        }
+      } else if (liga == "Dcomics") {
+        for (let i = 0; i < superhero.length; i++) {
+          if (superhero[i]["producer"] == "DC Comics") {
+            document.querySelector(".resultado").innerHTML += `
+              <h2>${superhero[i]['NameCharacter']}</h2>
+              <img src="${superhero[i]['poster']}" alt="${superhero[i]['NameCharacter']}">
+            `;
+          }
+        }
+      }
+    })
+    .catch(error => {
+      console.error(error);
+      alert("Superhero not found");
+    });
+});
+
+
+
