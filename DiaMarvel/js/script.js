@@ -74,10 +74,8 @@ async function agregarHeroe() {
 
     const response = await axios.post("https://6818a3a15a4b07b9d1d02100.mockapi.io/Marvel", nuevoHeroe);
 
-    console.log("Héroe agregado:", response.data);
-    alert("¡Héroe registrado con éxito!");
-
-  
+    console.log(response.data);
+    
     document.querySelector(".input_nombre_personaje").value = "";
     document.querySelector(".input_nombre_actor").value = "";
     document.querySelector(".input_edad_actor").value = "";
@@ -89,9 +87,8 @@ async function agregarHeroe() {
     document.querySelector(".buttom_mas").innerHTML = "";
     document.querySelector(".registro_container").style.display = "none";
 
-    alert("¡El personaje se ha guardado correctamente!");
   } catch (error) {
-    console.error("Error al agregar héroe:", error);
-    alert("Ocurrió un error al agregar el héroe.");
+    console.error(error);
+
   }
 }
