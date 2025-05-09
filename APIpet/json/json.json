@@ -1,0 +1,1676 @@
+{
+    "animals": [
+        {
+            "id": 76335978,
+            "organization_id": "NC284",
+            "url": "https:\/\/www.petfinder.com\/dog\/cesar-76335978\/nc\/marshall\/madison-county-animal-services-nc284\/?referrer_id=0cf6d033-2287-41f4-9d7d-1276990df664\u0026utm_source=api\u0026utm_medium=partnership\u0026utm_content=0cf6d033-2287-41f4-9d7d-1276990df664",
+            "type": "Dog",
+            "species": "Dog",
+            "breeds": {
+                "primary": "Great Pyrenees",
+                "secondary": null,
+                "mixed": false,
+                "unknown": false
+            },
+            "colors": {
+                "primary": null,
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Young",
+            "gender": "Male",
+            "size": "Large",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": false,
+                "house_trained": false,
+                "declawed": null,
+                "special_needs": false,
+                "shots_current": false
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [],
+            "name": "Cesar",
+            "description": null,
+            "organization_animal_id": null,
+            "photos": [
+                {
+                    "small": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/ecee4200-f173-4122-9d00-ac8d392fc77b\/image\/fd23f9ee-bbcd-48cf-a974-4cd64c1c64a8.jpg?versionId=SsGJ2i0Rb7vmM89wmz9kQGLSKH035y4X\u0026bust=1746793389\u0026width=100",
+                    "medium": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/ecee4200-f173-4122-9d00-ac8d392fc77b\/image\/fd23f9ee-bbcd-48cf-a974-4cd64c1c64a8.jpg?versionId=SsGJ2i0Rb7vmM89wmz9kQGLSKH035y4X\u0026bust=1746793389\u0026width=300",
+                    "large": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/ecee4200-f173-4122-9d00-ac8d392fc77b\/image\/fd23f9ee-bbcd-48cf-a974-4cd64c1c64a8.jpg?versionId=SsGJ2i0Rb7vmM89wmz9kQGLSKH035y4X\u0026bust=1746793389\u0026width=600",
+                    "full": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/ecee4200-f173-4122-9d00-ac8d392fc77b\/image\/fd23f9ee-bbcd-48cf-a974-4cd64c1c64a8.jpg?versionId=SsGJ2i0Rb7vmM89wmz9kQGLSKH035y4X\u0026bust=1746793389"
+                }
+            ],
+            "primary_photo_cropped": {
+                "small": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/ecee4200-f173-4122-9d00-ac8d392fc77b\/image\/fd23f9ee-bbcd-48cf-a974-4cd64c1c64a8.jpg?versionId=SsGJ2i0Rb7vmM89wmz9kQGLSKH035y4X\u0026bust=1746793389\u0026width=300",
+                "medium": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/ecee4200-f173-4122-9d00-ac8d392fc77b\/image\/fd23f9ee-bbcd-48cf-a974-4cd64c1c64a8.jpg?versionId=SsGJ2i0Rb7vmM89wmz9kQGLSKH035y4X\u0026bust=1746793389\u0026width=450",
+                "large": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/ecee4200-f173-4122-9d00-ac8d392fc77b\/image\/fd23f9ee-bbcd-48cf-a974-4cd64c1c64a8.jpg?versionId=SsGJ2i0Rb7vmM89wmz9kQGLSKH035y4X\u0026bust=1746793389\u0026width=600",
+                "full": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/ecee4200-f173-4122-9d00-ac8d392fc77b\/image\/fd23f9ee-bbcd-48cf-a974-4cd64c1c64a8.jpg?versionId=SsGJ2i0Rb7vmM89wmz9kQGLSKH035y4X\u0026bust=1746793389"
+            },
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2025-05-09T12:23:31+0000",
+            "published_at": "2025-05-09T12:23:29+0000",
+            "distance": null,
+            "contact": {
+                "email": "shelter@madisoncountync.gov",
+                "phone": "(828) 649-3190",
+                "address": {
+                    "address1": "389 Long Branch Road",
+                    "address2": null,
+                    "city": "Marshall",
+                    "state": "NC",
+                    "postcode": "28753",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "\/v2\/animals\/76335978"
+                },
+                "type": {
+                    "href": "\/v2\/types\/dog"
+                },
+                "organization": {
+                    "href": "\/v2\/organizations\/nc284"
+                }
+            }
+        },
+        {
+            "id": 76335977,
+            "organization_id": "IL786",
+            "url": "https:\/\/www.petfinder.com\/dog\/alex-76335977\/il\/momence\/river-valley-animal-rescue-il786\/?referrer_id=0cf6d033-2287-41f4-9d7d-1276990df664\u0026utm_source=api\u0026utm_medium=partnership\u0026utm_content=0cf6d033-2287-41f4-9d7d-1276990df664",
+            "type": "Dog",
+            "species": "Dog",
+            "breeds": {
+                "primary": "German Shepherd Dog",
+                "secondary": null,
+                "mixed": false,
+                "unknown": false
+            },
+            "colors": {
+                "primary": "Bicolor",
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Senior",
+            "gender": "Female",
+            "size": "Medium",
+            "coat": "Medium",
+            "attributes": {
+                "spayed_neutered": true,
+                "house_trained": true,
+                "declawed": null,
+                "special_needs": false,
+                "shots_current": true
+            },
+            "environment": {
+                "children": true,
+                "dogs": true,
+                "cats": null
+            },
+            "tags": [],
+            "name": "Alex",
+            "description": "Alex came to us with her brothers and sister due to unforeseen circumstances that her family could not take care...",
+            "organization_animal_id": null,
+            "photos": [
+                {
+                    "small": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/4f5cb51c-07bb-4f3e-b278-8f34c2584d67\/image\/bf9af9c1-9389-4048-adf2-0e0d55f910c4.jpg?versionId=GxlfeauBo3ghKZ0Djuwa2NkVF.Axq2tD\u0026bust=1746793342\u0026width=100",
+                    "medium": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/4f5cb51c-07bb-4f3e-b278-8f34c2584d67\/image\/bf9af9c1-9389-4048-adf2-0e0d55f910c4.jpg?versionId=GxlfeauBo3ghKZ0Djuwa2NkVF.Axq2tD\u0026bust=1746793342\u0026width=300",
+                    "large": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/4f5cb51c-07bb-4f3e-b278-8f34c2584d67\/image\/bf9af9c1-9389-4048-adf2-0e0d55f910c4.jpg?versionId=GxlfeauBo3ghKZ0Djuwa2NkVF.Axq2tD\u0026bust=1746793342\u0026width=600",
+                    "full": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/4f5cb51c-07bb-4f3e-b278-8f34c2584d67\/image\/bf9af9c1-9389-4048-adf2-0e0d55f910c4.jpg?versionId=GxlfeauBo3ghKZ0Djuwa2NkVF.Axq2tD\u0026bust=1746793342"
+                }
+            ],
+            "primary_photo_cropped": {
+                "small": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/4f5cb51c-07bb-4f3e-b278-8f34c2584d67\/image\/bf9af9c1-9389-4048-adf2-0e0d55f910c4.jpg?versionId=GxlfeauBo3ghKZ0Djuwa2NkVF.Axq2tD\u0026bust=1746793342\u0026width=300",
+                "medium": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/4f5cb51c-07bb-4f3e-b278-8f34c2584d67\/image\/bf9af9c1-9389-4048-adf2-0e0d55f910c4.jpg?versionId=GxlfeauBo3ghKZ0Djuwa2NkVF.Axq2tD\u0026bust=1746793342\u0026width=450",
+                "large": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/4f5cb51c-07bb-4f3e-b278-8f34c2584d67\/image\/bf9af9c1-9389-4048-adf2-0e0d55f910c4.jpg?versionId=GxlfeauBo3ghKZ0Djuwa2NkVF.Axq2tD\u0026bust=1746793342\u0026width=600",
+                "full": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/4f5cb51c-07bb-4f3e-b278-8f34c2584d67\/image\/bf9af9c1-9389-4048-adf2-0e0d55f910c4.jpg?versionId=GxlfeauBo3ghKZ0Djuwa2NkVF.Axq2tD\u0026bust=1746793342"
+            },
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2025-05-09T12:23:15+0000",
+            "published_at": "2025-05-09T12:23:14+0000",
+            "distance": null,
+            "contact": {
+                "email": "shelter@rivervalleyanimalrescue.org",
+                "phone": "(815) 507-5007",
+                "address": {
+                    "address1": "3960 Vincennes Trail",
+                    "address2": null,
+                    "city": "Momence",
+                    "state": "IL",
+                    "postcode": "60954",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "\/v2\/animals\/76335977"
+                },
+                "type": {
+                    "href": "\/v2\/types\/dog"
+                },
+                "organization": {
+                    "href": "\/v2\/organizations\/il786"
+                }
+            }
+        },
+        {
+            "id": 76335980,
+            "organization_id": "IL195",
+            "url": "https:\/\/www.petfinder.com\/dog\/dunkin-76335980\/il\/wheeling\/heartland-animal-shelter-il195\/?referrer_id=0cf6d033-2287-41f4-9d7d-1276990df664\u0026utm_source=api\u0026utm_medium=partnership\u0026utm_content=0cf6d033-2287-41f4-9d7d-1276990df664",
+            "type": "Dog",
+            "species": "Dog",
+            "breeds": {
+                "primary": "Mixed Breed",
+                "secondary": null,
+                "mixed": false,
+                "unknown": false
+            },
+            "colors": {
+                "primary": "White \/ Cream",
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Young",
+            "gender": "Male",
+            "size": "Small",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": true,
+                "house_trained": false,
+                "declawed": null,
+                "special_needs": false,
+                "shots_current": true
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [
+                "Dog Friendly Can probably live with other dogs"
+            ],
+            "name": "Dunkin",
+            "description": "Dunkin is at our shelter. Please submit an application from our website or just come in to meet him during...",
+            "organization_animal_id": "HLIL-A-131789",
+            "photos": [],
+            "primary_photo_cropped": null,
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2025-05-09T12:22:47+0000",
+            "published_at": "2025-05-09T12:22:46+0000",
+            "distance": null,
+            "contact": {
+                "email": "info@heartlandanimalshelter.org",
+                "phone": "(847) 296-6400",
+                "address": {
+                    "address1": null,
+                    "address2": null,
+                    "city": "Wheeling",
+                    "state": "IL",
+                    "postcode": "60090",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "\/v2\/animals\/76335980"
+                },
+                "type": {
+                    "href": "\/v2\/types\/dog"
+                },
+                "organization": {
+                    "href": "\/v2\/organizations\/il195"
+                }
+            }
+        },
+        {
+            "id": 76335985,
+            "organization_id": "IL195",
+            "url": "https:\/\/www.petfinder.com\/dog\/filomena-76335985\/il\/wheeling\/heartland-animal-shelter-il195\/?referrer_id=0cf6d033-2287-41f4-9d7d-1276990df664\u0026utm_source=api\u0026utm_medium=partnership\u0026utm_content=0cf6d033-2287-41f4-9d7d-1276990df664",
+            "type": "Dog",
+            "species": "Dog",
+            "breeds": {
+                "primary": "Mixed Breed",
+                "secondary": null,
+                "mixed": false,
+                "unknown": false
+            },
+            "colors": {
+                "primary": "Brown \/ Chocolate",
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Adult",
+            "gender": "Female",
+            "size": "Medium",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": true,
+                "house_trained": false,
+                "declawed": null,
+                "special_needs": false,
+                "shots_current": true
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [
+                "Dog Friendly Can probably live with other dogs",
+                "Friendly with Children"
+            ],
+            "name": "Filomena",
+            "description": "Filomena is at our shelter. Please submit an application from our website or just come in to meet her during...",
+            "organization_animal_id": "HLIL-A-131786",
+            "photos": [],
+            "primary_photo_cropped": null,
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2025-05-09T12:22:47+0000",
+            "published_at": "2025-05-09T12:22:46+0000",
+            "distance": null,
+            "contact": {
+                "email": "info@heartlandanimalshelter.org",
+                "phone": "(847) 296-6400",
+                "address": {
+                    "address1": null,
+                    "address2": null,
+                    "city": "Wheeling",
+                    "state": "IL",
+                    "postcode": "60090",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "\/v2\/animals\/76335985"
+                },
+                "type": {
+                    "href": "\/v2\/types\/dog"
+                },
+                "organization": {
+                    "href": "\/v2\/organizations\/il195"
+                }
+            }
+        },
+        {
+            "id": 76335986,
+            "organization_id": "IL195",
+            "url": "https:\/\/www.petfinder.com\/dog\/lancelot-76335986\/il\/wheeling\/heartland-animal-shelter-il195\/?referrer_id=0cf6d033-2287-41f4-9d7d-1276990df664\u0026utm_source=api\u0026utm_medium=partnership\u0026utm_content=0cf6d033-2287-41f4-9d7d-1276990df664",
+            "type": "Dog",
+            "species": "Dog",
+            "breeds": {
+                "primary": "Mixed Breed",
+                "secondary": null,
+                "mixed": false,
+                "unknown": false
+            },
+            "colors": {
+                "primary": "Brown \/ Chocolate",
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Baby",
+            "gender": "Male",
+            "size": "Medium",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": true,
+                "house_trained": false,
+                "declawed": null,
+                "special_needs": false,
+                "shots_current": true
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [
+                "Dog Friendly Can probably live with other dogs",
+                "Friendly with Children",
+                "Cat Friendly"
+            ],
+            "name": "Lancelot",
+            "description": "Lancelot has been living in a foster home but will be at our shelter this week for open hours, 5\/8-5\/12!i...",
+            "organization_animal_id": "HLIL-A-131749",
+            "photos": [],
+            "primary_photo_cropped": null,
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2025-05-09T12:22:47+0000",
+            "published_at": "2025-05-09T12:22:46+0000",
+            "distance": null,
+            "contact": {
+                "email": "info@heartlandanimalshelter.org",
+                "phone": "(847) 296-6400",
+                "address": {
+                    "address1": null,
+                    "address2": null,
+                    "city": "Wheeling",
+                    "state": "IL",
+                    "postcode": "60090",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "\/v2\/animals\/76335986"
+                },
+                "type": {
+                    "href": "\/v2\/types\/dog"
+                },
+                "organization": {
+                    "href": "\/v2\/organizations\/il195"
+                }
+            }
+        },
+        {
+            "id": 76335987,
+            "organization_id": "IL195",
+            "url": "https:\/\/www.petfinder.com\/dog\/merlin-76335987\/il\/wheeling\/heartland-animal-shelter-il195\/?referrer_id=0cf6d033-2287-41f4-9d7d-1276990df664\u0026utm_source=api\u0026utm_medium=partnership\u0026utm_content=0cf6d033-2287-41f4-9d7d-1276990df664",
+            "type": "Dog",
+            "species": "Dog",
+            "breeds": {
+                "primary": "Mixed Breed",
+                "secondary": null,
+                "mixed": false,
+                "unknown": false
+            },
+            "colors": {
+                "primary": "Gray \/ Blue \/ Silver",
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Baby",
+            "gender": "Male",
+            "size": "Medium",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": false,
+                "house_trained": false,
+                "declawed": null,
+                "special_needs": false,
+                "shots_current": true
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [
+                "Cat Friendly",
+                "Dog Friendly Can probably live with other dogs",
+                "Friendly with Children"
+            ],
+            "name": "Merlin",
+            "description": "Merlin is at our shelter. Please submit an application from our website or just come in to meet him during...",
+            "organization_animal_id": "HLIL-A-131751",
+            "photos": [],
+            "primary_photo_cropped": null,
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2025-05-09T12:22:47+0000",
+            "published_at": "2025-05-09T12:22:46+0000",
+            "distance": null,
+            "contact": {
+                "email": "info@heartlandanimalshelter.org",
+                "phone": "(847) 296-6400",
+                "address": {
+                    "address1": null,
+                    "address2": null,
+                    "city": "Wheeling",
+                    "state": "IL",
+                    "postcode": "60090",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "\/v2\/animals\/76335987"
+                },
+                "type": {
+                    "href": "\/v2\/types\/dog"
+                },
+                "organization": {
+                    "href": "\/v2\/organizations\/il195"
+                }
+            }
+        },
+        {
+            "id": 76335988,
+            "organization_id": "IL195",
+            "url": "https:\/\/www.petfinder.com\/dog\/oracle-76335988\/il\/wheeling\/heartland-animal-shelter-il195\/?referrer_id=0cf6d033-2287-41f4-9d7d-1276990df664\u0026utm_source=api\u0026utm_medium=partnership\u0026utm_content=0cf6d033-2287-41f4-9d7d-1276990df664",
+            "type": "Dog",
+            "species": "Dog",
+            "breeds": {
+                "primary": "Mixed Breed",
+                "secondary": null,
+                "mixed": false,
+                "unknown": false
+            },
+            "colors": {
+                "primary": "Brown \/ Chocolate",
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Baby",
+            "gender": "Female",
+            "size": "Medium",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": true,
+                "house_trained": false,
+                "declawed": null,
+                "special_needs": false,
+                "shots_current": true
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [
+                "Dog Friendly Can probably live with other dogs",
+                "Cat Friendly",
+                "Friendly with Children"
+            ],
+            "name": "Oracle",
+            "description": "Oracle is at our shelter. Please submit an application from our website or just come in to meet her during...",
+            "organization_animal_id": "HLIL-A-131748",
+            "photos": [],
+            "primary_photo_cropped": null,
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2025-05-09T12:22:47+0000",
+            "published_at": "2025-05-09T12:22:46+0000",
+            "distance": null,
+            "contact": {
+                "email": "info@heartlandanimalshelter.org",
+                "phone": "(847) 296-6400",
+                "address": {
+                    "address1": null,
+                    "address2": null,
+                    "city": "Wheeling",
+                    "state": "IL",
+                    "postcode": "60090",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "\/v2\/animals\/76335988"
+                },
+                "type": {
+                    "href": "\/v2\/types\/dog"
+                },
+                "organization": {
+                    "href": "\/v2\/organizations\/il195"
+                }
+            }
+        },
+        {
+            "id": 76335981,
+            "organization_id": "IL195",
+            "url": "https:\/\/www.petfinder.com\/dog\/orrie-76335981\/il\/wheeling\/heartland-animal-shelter-il195\/?referrer_id=0cf6d033-2287-41f4-9d7d-1276990df664\u0026utm_source=api\u0026utm_medium=partnership\u0026utm_content=0cf6d033-2287-41f4-9d7d-1276990df664",
+            "type": "Dog",
+            "species": "Dog",
+            "breeds": {
+                "primary": "Mixed Breed",
+                "secondary": null,
+                "mixed": false,
+                "unknown": false
+            },
+            "colors": {
+                "primary": "Black",
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Baby",
+            "gender": "Male",
+            "size": "Medium",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": true,
+                "house_trained": false,
+                "declawed": null,
+                "special_needs": false,
+                "shots_current": true
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [
+                "Dog Friendly Can probably live with other dogs",
+                "Friendly with Children"
+            ],
+            "name": "Orrie",
+            "description": "Orrie is at our shelter. Please submit an application from our website or just come in to meet him during...",
+            "organization_animal_id": "HLIL-A-131787",
+            "photos": [
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335981\/1\/?bust=1746793460\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335981\/1\/?bust=1746793460\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335981\/1\/?bust=1746793460\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335981\/1\/?bust=1746793460"
+                },
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335981\/2\/?bust=1746793463\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335981\/2\/?bust=1746793463\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335981\/2\/?bust=1746793463\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335981\/2\/?bust=1746793463"
+                },
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335981\/3\/?bust=1746793462\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335981\/3\/?bust=1746793462\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335981\/3\/?bust=1746793462\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335981\/3\/?bust=1746793462"
+                },
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335981\/4\/?bust=1746793462\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335981\/4\/?bust=1746793462\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335981\/4\/?bust=1746793462\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335981\/4\/?bust=1746793462"
+                },
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335981\/5\/?bust=1746793464\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335981\/5\/?bust=1746793464\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335981\/5\/?bust=1746793464\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335981\/5\/?bust=1746793464"
+                },
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335981\/6\/?bust=1746793461\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335981\/6\/?bust=1746793461\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335981\/6\/?bust=1746793461\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335981\/6\/?bust=1746793461"
+                }
+            ],
+            "primary_photo_cropped": {
+                "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335981\/1\/?bust=1746793460\u0026width=300",
+                "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335981\/1\/?bust=1746793460\u0026width=450",
+                "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335981\/1\/?bust=1746793460\u0026width=600",
+                "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335981\/1\/?bust=1746793460"
+            },
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2025-05-09T12:22:48+0000",
+            "published_at": "2025-05-09T12:22:46+0000",
+            "distance": null,
+            "contact": {
+                "email": "info@heartlandanimalshelter.org",
+                "phone": "(847) 296-6400",
+                "address": {
+                    "address1": null,
+                    "address2": null,
+                    "city": "Wheeling",
+                    "state": "IL",
+                    "postcode": "60090",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "\/v2\/animals\/76335981"
+                },
+                "type": {
+                    "href": "\/v2\/types\/dog"
+                },
+                "organization": {
+                    "href": "\/v2\/organizations\/il195"
+                }
+            }
+        },
+        {
+            "id": 76335982,
+            "organization_id": "IL195",
+            "url": "https:\/\/www.petfinder.com\/dog\/roxy-76335982\/il\/wheeling\/heartland-animal-shelter-il195\/?referrer_id=0cf6d033-2287-41f4-9d7d-1276990df664\u0026utm_source=api\u0026utm_medium=partnership\u0026utm_content=0cf6d033-2287-41f4-9d7d-1276990df664",
+            "type": "Dog",
+            "species": "Dog",
+            "breeds": {
+                "primary": "Mixed Breed",
+                "secondary": null,
+                "mixed": true,
+                "unknown": false
+            },
+            "colors": {
+                "primary": "Brown \/ Chocolate",
+                "secondary": "Apricot \/ Beige",
+                "tertiary": null
+            },
+            "age": "Young",
+            "gender": "Female",
+            "size": "Medium",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": true,
+                "house_trained": false,
+                "declawed": null,
+                "special_needs": false,
+                "shots_current": true
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [
+                "Dog Friendly Can probably live with other dogs",
+                "Friendly with Children"
+            ],
+            "name": "Roxy",
+            "description": "Roxy is living in a foster home. Please submit an application from our website and\/or email dogs@heartlandanimalshelter.org to learn if...",
+            "organization_animal_id": "HLIL-A-131743",
+            "photos": [
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335982\/1\/?bust=1746793468\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335982\/1\/?bust=1746793468\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335982\/1\/?bust=1746793468\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335982\/1\/?bust=1746793468"
+                },
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335982\/2\/?bust=1746793466\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335982\/2\/?bust=1746793466\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335982\/2\/?bust=1746793466\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335982\/2\/?bust=1746793466"
+                },
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335982\/3\/?bust=1746793469\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335982\/3\/?bust=1746793469\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335982\/3\/?bust=1746793469\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335982\/3\/?bust=1746793469"
+                },
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335982\/4\/?bust=1746793470\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335982\/4\/?bust=1746793470\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335982\/4\/?bust=1746793470\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335982\/4\/?bust=1746793470"
+                },
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335982\/5\/?bust=1746793465\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335982\/5\/?bust=1746793465\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335982\/5\/?bust=1746793465\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335982\/5\/?bust=1746793465"
+                },
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335982\/6\/?bust=1746793467\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335982\/6\/?bust=1746793467\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335982\/6\/?bust=1746793467\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335982\/6\/?bust=1746793467"
+                }
+            ],
+            "primary_photo_cropped": {
+                "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335982\/1\/?bust=1746793468\u0026width=300",
+                "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335982\/1\/?bust=1746793468\u0026width=450",
+                "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335982\/1\/?bust=1746793468\u0026width=600",
+                "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335982\/1\/?bust=1746793468"
+            },
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2025-05-09T12:22:48+0000",
+            "published_at": "2025-05-09T12:22:46+0000",
+            "distance": null,
+            "contact": {
+                "email": "info@heartlandanimalshelter.org",
+                "phone": "(847) 296-6400",
+                "address": {
+                    "address1": null,
+                    "address2": null,
+                    "city": "Wheeling",
+                    "state": "IL",
+                    "postcode": "60090",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "\/v2\/animals\/76335982"
+                },
+                "type": {
+                    "href": "\/v2\/types\/dog"
+                },
+                "organization": {
+                    "href": "\/v2\/organizations\/il195"
+                }
+            }
+        },
+        {
+            "id": 76335983,
+            "organization_id": "IL195",
+            "url": "https:\/\/www.petfinder.com\/dog\/donut-76335983\/il\/wheeling\/heartland-animal-shelter-il195\/?referrer_id=0cf6d033-2287-41f4-9d7d-1276990df664\u0026utm_source=api\u0026utm_medium=partnership\u0026utm_content=0cf6d033-2287-41f4-9d7d-1276990df664",
+            "type": "Dog",
+            "species": "Dog",
+            "breeds": {
+                "primary": "Mixed Breed",
+                "secondary": null,
+                "mixed": false,
+                "unknown": false
+            },
+            "colors": {
+                "primary": "White \/ Cream",
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Baby",
+            "gender": "Female",
+            "size": "Small",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": true,
+                "house_trained": false,
+                "declawed": null,
+                "special_needs": false,
+                "shots_current": true
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [
+                "Dog Friendly Can probably live with other dogs"
+            ],
+            "name": "Donut",
+            "description": "Donut is at our shelter. Please submit an application from our website or just come in to meet her during...",
+            "organization_animal_id": "HLIL-A-131790",
+            "photos": [
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335983\/1\/?bust=1746793486\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335983\/1\/?bust=1746793486\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335983\/1\/?bust=1746793486\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335983\/1\/?bust=1746793486"
+                },
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335983\/4\/?bust=1746793484\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335983\/4\/?bust=1746793484\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335983\/4\/?bust=1746793484\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335983\/4\/?bust=1746793484"
+                },
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335983\/5\/?bust=1746793485\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335983\/5\/?bust=1746793485\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335983\/5\/?bust=1746793485\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335983\/5\/?bust=1746793485"
+                },
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335983\/6\/?bust=1746793486\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335983\/6\/?bust=1746793486\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335983\/6\/?bust=1746793486\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335983\/6\/?bust=1746793486"
+                }
+            ],
+            "primary_photo_cropped": {
+                "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335983\/1\/?bust=1746793486\u0026width=300",
+                "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335983\/1\/?bust=1746793486\u0026width=450",
+                "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335983\/1\/?bust=1746793486\u0026width=600",
+                "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335983\/1\/?bust=1746793486"
+            },
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2025-05-09T12:22:48+0000",
+            "published_at": "2025-05-09T12:22:46+0000",
+            "distance": null,
+            "contact": {
+                "email": "info@heartlandanimalshelter.org",
+                "phone": "(847) 296-6400",
+                "address": {
+                    "address1": null,
+                    "address2": null,
+                    "city": "Wheeling",
+                    "state": "IL",
+                    "postcode": "60090",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "\/v2\/animals\/76335983"
+                },
+                "type": {
+                    "href": "\/v2\/types\/dog"
+                },
+                "organization": {
+                    "href": "\/v2\/organizations\/il195"
+                }
+            }
+        },
+        {
+            "id": 76335984,
+            "organization_id": "IL195",
+            "url": "https:\/\/www.petfinder.com\/dog\/hacky-sack-76335984\/il\/wheeling\/heartland-animal-shelter-il195\/?referrer_id=0cf6d033-2287-41f4-9d7d-1276990df664\u0026utm_source=api\u0026utm_medium=partnership\u0026utm_content=0cf6d033-2287-41f4-9d7d-1276990df664",
+            "type": "Dog",
+            "species": "Dog",
+            "breeds": {
+                "primary": "Black Labrador Retriever",
+                "secondary": "Mixed Breed",
+                "mixed": true,
+                "unknown": false
+            },
+            "colors": {
+                "primary": "Black",
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Young",
+            "gender": "Male",
+            "size": "Medium",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": true,
+                "house_trained": false,
+                "declawed": null,
+                "special_needs": false,
+                "shots_current": true
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [
+                "Dog Friendly Can probably live with other dogs",
+                "Friendly with Children"
+            ],
+            "name": "Hacky Sack",
+            "description": "Hacky Sack is at our shelter. Please submit an application from our website or just come in to meet him...",
+            "organization_animal_id": "HLIL-A-131805",
+            "photos": [
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335984\/1\/?bust=1746793488\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335984\/1\/?bust=1746793488\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335984\/1\/?bust=1746793488\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335984\/1\/?bust=1746793488"
+                }
+            ],
+            "primary_photo_cropped": {
+                "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335984\/1\/?bust=1746793488\u0026width=300",
+                "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335984\/1\/?bust=1746793488\u0026width=450",
+                "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335984\/1\/?bust=1746793488\u0026width=600",
+                "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/76335984\/1\/?bust=1746793488"
+            },
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2025-05-09T12:22:48+0000",
+            "published_at": "2025-05-09T12:22:46+0000",
+            "distance": null,
+            "contact": {
+                "email": "info@heartlandanimalshelter.org",
+                "phone": "(847) 296-6400",
+                "address": {
+                    "address1": null,
+                    "address2": null,
+                    "city": "Wheeling",
+                    "state": "IL",
+                    "postcode": "60090",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "\/v2\/animals\/76335984"
+                },
+                "type": {
+                    "href": "\/v2\/types\/dog"
+                },
+                "organization": {
+                    "href": "\/v2\/organizations\/il195"
+                }
+            }
+        },
+        {
+            "id": 76335975,
+            "organization_id": "NC284",
+            "url": "https:\/\/www.petfinder.com\/dog\/brutus-76335975\/nc\/marshall\/madison-county-animal-services-nc284\/?referrer_id=0cf6d033-2287-41f4-9d7d-1276990df664\u0026utm_source=api\u0026utm_medium=partnership\u0026utm_content=0cf6d033-2287-41f4-9d7d-1276990df664",
+            "type": "Dog",
+            "species": "Dog",
+            "breeds": {
+                "primary": "Great Pyrenees",
+                "secondary": null,
+                "mixed": false,
+                "unknown": false
+            },
+            "colors": {
+                "primary": null,
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Young",
+            "gender": "Male",
+            "size": "Large",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": false,
+                "house_trained": false,
+                "declawed": null,
+                "special_needs": false,
+                "shots_current": false
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [],
+            "name": "Brutus",
+            "description": null,
+            "organization_animal_id": null,
+            "photos": [
+                {
+                    "small": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/63e06dcb-b48f-4857-ad9a-1152256e634d\/image\/d84b9a3c-e1d0-4793-a4b4-369b232ea60f.jpg?versionId=Xfm49ZdmKaH84Y.TNo.9qmsiFBFN8yzt\u0026bust=1746793274\u0026width=100",
+                    "medium": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/63e06dcb-b48f-4857-ad9a-1152256e634d\/image\/d84b9a3c-e1d0-4793-a4b4-369b232ea60f.jpg?versionId=Xfm49ZdmKaH84Y.TNo.9qmsiFBFN8yzt\u0026bust=1746793274\u0026width=300",
+                    "large": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/63e06dcb-b48f-4857-ad9a-1152256e634d\/image\/d84b9a3c-e1d0-4793-a4b4-369b232ea60f.jpg?versionId=Xfm49ZdmKaH84Y.TNo.9qmsiFBFN8yzt\u0026bust=1746793274\u0026width=600",
+                    "full": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/63e06dcb-b48f-4857-ad9a-1152256e634d\/image\/d84b9a3c-e1d0-4793-a4b4-369b232ea60f.jpg?versionId=Xfm49ZdmKaH84Y.TNo.9qmsiFBFN8yzt\u0026bust=1746793274"
+                }
+            ],
+            "primary_photo_cropped": {
+                "small": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/63e06dcb-b48f-4857-ad9a-1152256e634d\/image\/d84b9a3c-e1d0-4793-a4b4-369b232ea60f.jpg?versionId=Xfm49ZdmKaH84Y.TNo.9qmsiFBFN8yzt\u0026bust=1746793274\u0026width=300",
+                "medium": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/63e06dcb-b48f-4857-ad9a-1152256e634d\/image\/d84b9a3c-e1d0-4793-a4b4-369b232ea60f.jpg?versionId=Xfm49ZdmKaH84Y.TNo.9qmsiFBFN8yzt\u0026bust=1746793274\u0026width=450",
+                "large": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/63e06dcb-b48f-4857-ad9a-1152256e634d\/image\/d84b9a3c-e1d0-4793-a4b4-369b232ea60f.jpg?versionId=Xfm49ZdmKaH84Y.TNo.9qmsiFBFN8yzt\u0026bust=1746793274\u0026width=600",
+                "full": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/63e06dcb-b48f-4857-ad9a-1152256e634d\/image\/d84b9a3c-e1d0-4793-a4b4-369b232ea60f.jpg?versionId=Xfm49ZdmKaH84Y.TNo.9qmsiFBFN8yzt\u0026bust=1746793274"
+            },
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2025-05-09T12:21:42+0000",
+            "published_at": "2025-05-09T12:21:40+0000",
+            "distance": null,
+            "contact": {
+                "email": "shelter@madisoncountync.gov",
+                "phone": "(828) 649-3190",
+                "address": {
+                    "address1": "389 Long Branch Road",
+                    "address2": null,
+                    "city": "Marshall",
+                    "state": "NC",
+                    "postcode": "28753",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "\/v2\/animals\/76335975"
+                },
+                "type": {
+                    "href": "\/v2\/types\/dog"
+                },
+                "organization": {
+                    "href": "\/v2\/organizations\/nc284"
+                }
+            }
+        },
+        {
+            "id": 76335961,
+            "organization_id": "PA54",
+            "url": "https:\/\/www.petfinder.com\/dog\/twiggy-76335961\/ny\/putnam-valley\/aussie-rescue-and-placement-helpline-inc-pa54\/?referrer_id=0cf6d033-2287-41f4-9d7d-1276990df664\u0026utm_source=api\u0026utm_medium=partnership\u0026utm_content=0cf6d033-2287-41f4-9d7d-1276990df664",
+            "type": "Dog",
+            "species": "Dog",
+            "breeds": {
+                "primary": "Australian Shepherd",
+                "secondary": null,
+                "mixed": false,
+                "unknown": false
+            },
+            "colors": {
+                "primary": "Merle (Blue)",
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Adult",
+            "gender": "Female",
+            "size": "Medium",
+            "coat": "Medium",
+            "attributes": {
+                "spayed_neutered": true,
+                "house_trained": false,
+                "declawed": null,
+                "special_needs": false,
+                "shots_current": true
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [
+                "Smart",
+                "Loyal",
+                "Protective",
+                "Athletic"
+            ],
+            "name": "Twiggy",
+            "description": "Meet Twiggy! This beautiful blue merle girl is not in the ARPH program; we are assisting the owner in finding...",
+            "organization_animal_id": null,
+            "photos": [
+                {
+                    "small": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/a29b596a-e3b5-4ff8-9d0f-19ada15681a6\/image\/409e7001-039e-473a-bfd9-9512eea259bb.jpg?versionId=RFUk7p.CQjObNRuK_SCY4ktOagCTUKH1\u0026bust=1746792881\u0026width=100",
+                    "medium": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/a29b596a-e3b5-4ff8-9d0f-19ada15681a6\/image\/409e7001-039e-473a-bfd9-9512eea259bb.jpg?versionId=RFUk7p.CQjObNRuK_SCY4ktOagCTUKH1\u0026bust=1746792881\u0026width=300",
+                    "large": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/a29b596a-e3b5-4ff8-9d0f-19ada15681a6\/image\/409e7001-039e-473a-bfd9-9512eea259bb.jpg?versionId=RFUk7p.CQjObNRuK_SCY4ktOagCTUKH1\u0026bust=1746792881\u0026width=600",
+                    "full": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/a29b596a-e3b5-4ff8-9d0f-19ada15681a6\/image\/409e7001-039e-473a-bfd9-9512eea259bb.jpg?versionId=RFUk7p.CQjObNRuK_SCY4ktOagCTUKH1\u0026bust=1746792881"
+                },
+                {
+                    "small": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/a29b596a-e3b5-4ff8-9d0f-19ada15681a6\/image\/af98c3da-3b9a-43a9-932b-c8b81e946479.jpg?versionId=QZ6.4gmRo5j1.E1SeXpkVfe55xtDrbJo\u0026bust=1746792892\u0026width=100",
+                    "medium": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/a29b596a-e3b5-4ff8-9d0f-19ada15681a6\/image\/af98c3da-3b9a-43a9-932b-c8b81e946479.jpg?versionId=QZ6.4gmRo5j1.E1SeXpkVfe55xtDrbJo\u0026bust=1746792892\u0026width=300",
+                    "large": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/a29b596a-e3b5-4ff8-9d0f-19ada15681a6\/image\/af98c3da-3b9a-43a9-932b-c8b81e946479.jpg?versionId=QZ6.4gmRo5j1.E1SeXpkVfe55xtDrbJo\u0026bust=1746792892\u0026width=600",
+                    "full": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/a29b596a-e3b5-4ff8-9d0f-19ada15681a6\/image\/af98c3da-3b9a-43a9-932b-c8b81e946479.jpg?versionId=QZ6.4gmRo5j1.E1SeXpkVfe55xtDrbJo\u0026bust=1746792892"
+                },
+                {
+                    "small": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/a29b596a-e3b5-4ff8-9d0f-19ada15681a6\/image\/d15bf867-8bd6-48ac-96f8-ecf5b71955d0.jpg?versionId=YWFLn8qE88tAoe25MyQkl1Bl3cS1c8AF\u0026bust=1746792892\u0026width=100",
+                    "medium": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/a29b596a-e3b5-4ff8-9d0f-19ada15681a6\/image\/d15bf867-8bd6-48ac-96f8-ecf5b71955d0.jpg?versionId=YWFLn8qE88tAoe25MyQkl1Bl3cS1c8AF\u0026bust=1746792892\u0026width=300",
+                    "large": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/a29b596a-e3b5-4ff8-9d0f-19ada15681a6\/image\/d15bf867-8bd6-48ac-96f8-ecf5b71955d0.jpg?versionId=YWFLn8qE88tAoe25MyQkl1Bl3cS1c8AF\u0026bust=1746792892\u0026width=600",
+                    "full": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/a29b596a-e3b5-4ff8-9d0f-19ada15681a6\/image\/d15bf867-8bd6-48ac-96f8-ecf5b71955d0.jpg?versionId=YWFLn8qE88tAoe25MyQkl1Bl3cS1c8AF\u0026bust=1746792892"
+                },
+                {
+                    "small": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/a29b596a-e3b5-4ff8-9d0f-19ada15681a6\/image\/c49c9fb6-600c-43e7-8eb1-f4c24cfbba30.jpg?versionId=IO5IVdIs9uADgsoLawtW_vIR0w9Aquxt\u0026bust=1746792893\u0026width=100",
+                    "medium": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/a29b596a-e3b5-4ff8-9d0f-19ada15681a6\/image\/c49c9fb6-600c-43e7-8eb1-f4c24cfbba30.jpg?versionId=IO5IVdIs9uADgsoLawtW_vIR0w9Aquxt\u0026bust=1746792893\u0026width=300",
+                    "large": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/a29b596a-e3b5-4ff8-9d0f-19ada15681a6\/image\/c49c9fb6-600c-43e7-8eb1-f4c24cfbba30.jpg?versionId=IO5IVdIs9uADgsoLawtW_vIR0w9Aquxt\u0026bust=1746792893\u0026width=600",
+                    "full": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/a29b596a-e3b5-4ff8-9d0f-19ada15681a6\/image\/c49c9fb6-600c-43e7-8eb1-f4c24cfbba30.jpg?versionId=IO5IVdIs9uADgsoLawtW_vIR0w9Aquxt\u0026bust=1746792893"
+                }
+            ],
+            "primary_photo_cropped": {
+                "small": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/a29b596a-e3b5-4ff8-9d0f-19ada15681a6\/image\/409e7001-039e-473a-bfd9-9512eea259bb.jpg?versionId=RFUk7p.CQjObNRuK_SCY4ktOagCTUKH1\u0026bust=1746792881\u0026width=300",
+                "medium": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/a29b596a-e3b5-4ff8-9d0f-19ada15681a6\/image\/409e7001-039e-473a-bfd9-9512eea259bb.jpg?versionId=RFUk7p.CQjObNRuK_SCY4ktOagCTUKH1\u0026bust=1746792881\u0026width=450",
+                "large": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/a29b596a-e3b5-4ff8-9d0f-19ada15681a6\/image\/409e7001-039e-473a-bfd9-9512eea259bb.jpg?versionId=RFUk7p.CQjObNRuK_SCY4ktOagCTUKH1\u0026bust=1746792881\u0026width=600",
+                "full": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/a29b596a-e3b5-4ff8-9d0f-19ada15681a6\/image\/409e7001-039e-473a-bfd9-9512eea259bb.jpg?versionId=RFUk7p.CQjObNRuK_SCY4ktOagCTUKH1\u0026bust=1746792881"
+            },
+            "videos": [
+                {
+                    "embed": "\u003Ciframe title=\u0022Video\u0022 src=\u0022https:\/\/www.youtube.com\/embed\/ZNsz2SYoa4I?enablejsapi=1\u0022 frameborder=\u00220\u0022 allowfullscreen\u003E\u003C\/iframe\u003E"
+                }
+            ],
+            "status": "adoptable",
+            "status_changed_at": "2025-05-09T12:21:25+0000",
+            "published_at": "2025-05-09T12:21:24+0000",
+            "distance": null,
+            "contact": {
+                "email": "bluedawg7@gmail.com",
+                "phone": null,
+                "address": {
+                    "address1": null,
+                    "address2": null,
+                    "city": "Putnam Valley",
+                    "state": "NY",
+                    "postcode": "10579",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "\/v2\/animals\/76335961"
+                },
+                "type": {
+                    "href": "\/v2\/types\/dog"
+                },
+                "organization": {
+                    "href": "\/v2\/organizations\/pa54"
+                }
+            }
+        },
+        {
+            "id": 76335973,
+            "organization_id": "NC284",
+            "url": "https:\/\/www.petfinder.com\/dog\/bubble-yum-76335973\/nc\/marshall\/madison-county-animal-services-nc284\/?referrer_id=0cf6d033-2287-41f4-9d7d-1276990df664\u0026utm_source=api\u0026utm_medium=partnership\u0026utm_content=0cf6d033-2287-41f4-9d7d-1276990df664",
+            "type": "Dog",
+            "species": "Dog",
+            "breeds": {
+                "primary": "Australian Cattle Dog \/ Blue Heeler",
+                "secondary": null,
+                "mixed": true,
+                "unknown": false
+            },
+            "colors": {
+                "primary": null,
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Young",
+            "gender": "Female",
+            "size": "Medium",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": false,
+                "house_trained": false,
+                "declawed": null,
+                "special_needs": false,
+                "shots_current": false
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [],
+            "name": "Bubble Yum",
+            "description": null,
+            "organization_animal_id": null,
+            "photos": [
+                {
+                    "small": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/4ea69af7-2989-4dbd-ae85-b6bda11c4c72\/image\/c2bd9cc8-e6c1-42c6-9607-d374f7fa14c7.jpg?versionId=aBrauHrpoG.u47vQt3nbGWx5lmrfn_yA\u0026bust=1746793141\u0026width=100",
+                    "medium": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/4ea69af7-2989-4dbd-ae85-b6bda11c4c72\/image\/c2bd9cc8-e6c1-42c6-9607-d374f7fa14c7.jpg?versionId=aBrauHrpoG.u47vQt3nbGWx5lmrfn_yA\u0026bust=1746793141\u0026width=300",
+                    "large": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/4ea69af7-2989-4dbd-ae85-b6bda11c4c72\/image\/c2bd9cc8-e6c1-42c6-9607-d374f7fa14c7.jpg?versionId=aBrauHrpoG.u47vQt3nbGWx5lmrfn_yA\u0026bust=1746793141\u0026width=600",
+                    "full": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/4ea69af7-2989-4dbd-ae85-b6bda11c4c72\/image\/c2bd9cc8-e6c1-42c6-9607-d374f7fa14c7.jpg?versionId=aBrauHrpoG.u47vQt3nbGWx5lmrfn_yA\u0026bust=1746793141"
+                },
+                {
+                    "small": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/4ea69af7-2989-4dbd-ae85-b6bda11c4c72\/image\/fda408ac-82a4-48db-ad01-9746dce4e4d6.jpg?versionId=UYznU20w33_h0qYnEe7mrmpG3Zd2EulQ\u0026bust=1746793141\u0026width=100",
+                    "medium": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/4ea69af7-2989-4dbd-ae85-b6bda11c4c72\/image\/fda408ac-82a4-48db-ad01-9746dce4e4d6.jpg?versionId=UYznU20w33_h0qYnEe7mrmpG3Zd2EulQ\u0026bust=1746793141\u0026width=300",
+                    "large": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/4ea69af7-2989-4dbd-ae85-b6bda11c4c72\/image\/fda408ac-82a4-48db-ad01-9746dce4e4d6.jpg?versionId=UYznU20w33_h0qYnEe7mrmpG3Zd2EulQ\u0026bust=1746793141\u0026width=600",
+                    "full": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/4ea69af7-2989-4dbd-ae85-b6bda11c4c72\/image\/fda408ac-82a4-48db-ad01-9746dce4e4d6.jpg?versionId=UYznU20w33_h0qYnEe7mrmpG3Zd2EulQ\u0026bust=1746793141"
+                }
+            ],
+            "primary_photo_cropped": {
+                "small": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/4ea69af7-2989-4dbd-ae85-b6bda11c4c72\/image\/c2bd9cc8-e6c1-42c6-9607-d374f7fa14c7.jpg?versionId=aBrauHrpoG.u47vQt3nbGWx5lmrfn_yA\u0026bust=1746793141\u0026width=300",
+                "medium": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/4ea69af7-2989-4dbd-ae85-b6bda11c4c72\/image\/c2bd9cc8-e6c1-42c6-9607-d374f7fa14c7.jpg?versionId=aBrauHrpoG.u47vQt3nbGWx5lmrfn_yA\u0026bust=1746793141\u0026width=450",
+                "large": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/4ea69af7-2989-4dbd-ae85-b6bda11c4c72\/image\/c2bd9cc8-e6c1-42c6-9607-d374f7fa14c7.jpg?versionId=aBrauHrpoG.u47vQt3nbGWx5lmrfn_yA\u0026bust=1746793141\u0026width=600",
+                "full": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/4ea69af7-2989-4dbd-ae85-b6bda11c4c72\/image\/c2bd9cc8-e6c1-42c6-9607-d374f7fa14c7.jpg?versionId=aBrauHrpoG.u47vQt3nbGWx5lmrfn_yA\u0026bust=1746793141"
+            },
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2025-05-09T12:19:52+0000",
+            "published_at": "2025-05-09T12:19:49+0000",
+            "distance": null,
+            "contact": {
+                "email": "shelter@madisoncountync.gov",
+                "phone": "(828) 649-3190",
+                "address": {
+                    "address1": "389 Long Branch Road",
+                    "address2": null,
+                    "city": "Marshall",
+                    "state": "NC",
+                    "postcode": "28753",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "\/v2\/animals\/76335973"
+                },
+                "type": {
+                    "href": "\/v2\/types\/dog"
+                },
+                "organization": {
+                    "href": "\/v2\/organizations\/nc284"
+                }
+            }
+        },
+        {
+            "id": 76335966,
+            "organization_id": "NC284",
+            "url": "https:\/\/www.petfinder.com\/dog\/bubbilicious-76335966\/nc\/marshall\/madison-county-animal-services-nc284\/?referrer_id=0cf6d033-2287-41f4-9d7d-1276990df664\u0026utm_source=api\u0026utm_medium=partnership\u0026utm_content=0cf6d033-2287-41f4-9d7d-1276990df664",
+            "type": "Dog",
+            "species": "Dog",
+            "breeds": {
+                "primary": "Australian Cattle Dog \/ Blue Heeler",
+                "secondary": null,
+                "mixed": false,
+                "unknown": false
+            },
+            "colors": {
+                "primary": null,
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Young",
+            "gender": "Female",
+            "size": "Medium",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": false,
+                "house_trained": false,
+                "declawed": null,
+                "special_needs": false,
+                "shots_current": false
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [],
+            "name": "Bubbilicious",
+            "description": null,
+            "organization_animal_id": null,
+            "photos": [
+                {
+                    "small": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/faaf349e-c12d-4818-9942-8408e4de6910\/image\/f484db1c-6d57-4f90-a00e-0718e9cad693.jpg?versionId=1nl4hpjx0LwwF7uylHxjXPzxBm8Dn12j\u0026bust=1746793054\u0026width=100",
+                    "medium": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/faaf349e-c12d-4818-9942-8408e4de6910\/image\/f484db1c-6d57-4f90-a00e-0718e9cad693.jpg?versionId=1nl4hpjx0LwwF7uylHxjXPzxBm8Dn12j\u0026bust=1746793054\u0026width=300",
+                    "large": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/faaf349e-c12d-4818-9942-8408e4de6910\/image\/f484db1c-6d57-4f90-a00e-0718e9cad693.jpg?versionId=1nl4hpjx0LwwF7uylHxjXPzxBm8Dn12j\u0026bust=1746793054\u0026width=600",
+                    "full": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/faaf349e-c12d-4818-9942-8408e4de6910\/image\/f484db1c-6d57-4f90-a00e-0718e9cad693.jpg?versionId=1nl4hpjx0LwwF7uylHxjXPzxBm8Dn12j\u0026bust=1746793054"
+                }
+            ],
+            "primary_photo_cropped": {
+                "small": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/faaf349e-c12d-4818-9942-8408e4de6910\/image\/f484db1c-6d57-4f90-a00e-0718e9cad693.jpg?versionId=1nl4hpjx0LwwF7uylHxjXPzxBm8Dn12j\u0026bust=1746793054\u0026width=300",
+                "medium": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/faaf349e-c12d-4818-9942-8408e4de6910\/image\/f484db1c-6d57-4f90-a00e-0718e9cad693.jpg?versionId=1nl4hpjx0LwwF7uylHxjXPzxBm8Dn12j\u0026bust=1746793054\u0026width=450",
+                "large": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/faaf349e-c12d-4818-9942-8408e4de6910\/image\/f484db1c-6d57-4f90-a00e-0718e9cad693.jpg?versionId=1nl4hpjx0LwwF7uylHxjXPzxBm8Dn12j\u0026bust=1746793054\u0026width=600",
+                "full": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/faaf349e-c12d-4818-9942-8408e4de6910\/image\/f484db1c-6d57-4f90-a00e-0718e9cad693.jpg?versionId=1nl4hpjx0LwwF7uylHxjXPzxBm8Dn12j\u0026bust=1746793054"
+            },
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2025-05-09T12:17:59+0000",
+            "published_at": "2025-05-09T12:17:56+0000",
+            "distance": null,
+            "contact": {
+                "email": "shelter@madisoncountync.gov",
+                "phone": "(828) 649-3190",
+                "address": {
+                    "address1": "389 Long Branch Road",
+                    "address2": null,
+                    "city": "Marshall",
+                    "state": "NC",
+                    "postcode": "28753",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "\/v2\/animals\/76335966"
+                },
+                "type": {
+                    "href": "\/v2\/types\/dog"
+                },
+                "organization": {
+                    "href": "\/v2\/organizations\/nc284"
+                }
+            }
+        },
+        {
+            "id": 76335969,
+            "organization_id": "TX2621",
+            "url": "https:\/\/www.petfinder.com\/dog\/leia-76335969\/tx\/san-marcos\/friends-of-dogs-corp-tx2621\/?referrer_id=0cf6d033-2287-41f4-9d7d-1276990df664\u0026utm_source=api\u0026utm_medium=partnership\u0026utm_content=0cf6d033-2287-41f4-9d7d-1276990df664",
+            "type": "Dog",
+            "species": "Dog",
+            "breeds": {
+                "primary": "Australian Cattle Dog \/ Blue Heeler",
+                "secondary": "Terrier",
+                "mixed": true,
+                "unknown": false
+            },
+            "colors": {
+                "primary": "Red \/ Chestnut \/ Orange",
+                "secondary": "White \/ Cream",
+                "tertiary": null
+            },
+            "age": "Young",
+            "gender": "Female",
+            "size": "Medium",
+            "coat": "Short",
+            "attributes": {
+                "spayed_neutered": true,
+                "house_trained": true,
+                "declawed": null,
+                "special_needs": false,
+                "shots_current": true
+            },
+            "environment": {
+                "children": true,
+                "dogs": true,
+                "cats": true
+            },
+            "tags": [
+                "Affectionate",
+                "Friendly",
+                "Playful",
+                "Smart",
+                "Funny",
+                "Gentle"
+            ],
+            "name": "Leia",
+            "description": "Meet Leia!\n\nLeia is a 40-pound bundle of sweetness just waiting to steal your heart! Lovable and affectionate, she absolutely...",
+            "organization_animal_id": null,
+            "photos": [
+                {
+                    "small": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/251c2520-ace4-4f1f-88d3-e03fd375e0ab\/image\/517d2463-d9d6-45a5-b2ee-40125b36db6a.jpeg?versionId=_d2K6gPnHTImPUb0RshCR36vJSS.UPyE\u0026bust=1746793024\u0026width=100",
+                    "medium": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/251c2520-ace4-4f1f-88d3-e03fd375e0ab\/image\/517d2463-d9d6-45a5-b2ee-40125b36db6a.jpeg?versionId=_d2K6gPnHTImPUb0RshCR36vJSS.UPyE\u0026bust=1746793024\u0026width=300",
+                    "large": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/251c2520-ace4-4f1f-88d3-e03fd375e0ab\/image\/517d2463-d9d6-45a5-b2ee-40125b36db6a.jpeg?versionId=_d2K6gPnHTImPUb0RshCR36vJSS.UPyE\u0026bust=1746793024\u0026width=600",
+                    "full": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/251c2520-ace4-4f1f-88d3-e03fd375e0ab\/image\/517d2463-d9d6-45a5-b2ee-40125b36db6a.jpeg?versionId=_d2K6gPnHTImPUb0RshCR36vJSS.UPyE\u0026bust=1746793024"
+                },
+                {
+                    "small": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/251c2520-ace4-4f1f-88d3-e03fd375e0ab\/image\/b45c03ef-3ed5-4548-aad3-56266fe0108a.jpeg?versionId=Dt3jiDvXkJ_._QgyNBuOXNpcfDnH9kZI\u0026bust=1746793025\u0026width=100",
+                    "medium": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/251c2520-ace4-4f1f-88d3-e03fd375e0ab\/image\/b45c03ef-3ed5-4548-aad3-56266fe0108a.jpeg?versionId=Dt3jiDvXkJ_._QgyNBuOXNpcfDnH9kZI\u0026bust=1746793025\u0026width=300",
+                    "large": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/251c2520-ace4-4f1f-88d3-e03fd375e0ab\/image\/b45c03ef-3ed5-4548-aad3-56266fe0108a.jpeg?versionId=Dt3jiDvXkJ_._QgyNBuOXNpcfDnH9kZI\u0026bust=1746793025\u0026width=600",
+                    "full": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/251c2520-ace4-4f1f-88d3-e03fd375e0ab\/image\/b45c03ef-3ed5-4548-aad3-56266fe0108a.jpeg?versionId=Dt3jiDvXkJ_._QgyNBuOXNpcfDnH9kZI\u0026bust=1746793025"
+                },
+                {
+                    "small": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/251c2520-ace4-4f1f-88d3-e03fd375e0ab\/image\/265196a4-8c38-4bdd-bfdb-fca5d5e174bd.jpeg?versionId=Fsw2Dt2U.vjxaX8iPt5.qjmvxyXfO7dQ\u0026bust=1746793025\u0026width=100",
+                    "medium": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/251c2520-ace4-4f1f-88d3-e03fd375e0ab\/image\/265196a4-8c38-4bdd-bfdb-fca5d5e174bd.jpeg?versionId=Fsw2Dt2U.vjxaX8iPt5.qjmvxyXfO7dQ\u0026bust=1746793025\u0026width=300",
+                    "large": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/251c2520-ace4-4f1f-88d3-e03fd375e0ab\/image\/265196a4-8c38-4bdd-bfdb-fca5d5e174bd.jpeg?versionId=Fsw2Dt2U.vjxaX8iPt5.qjmvxyXfO7dQ\u0026bust=1746793025\u0026width=600",
+                    "full": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/251c2520-ace4-4f1f-88d3-e03fd375e0ab\/image\/265196a4-8c38-4bdd-bfdb-fca5d5e174bd.jpeg?versionId=Fsw2Dt2U.vjxaX8iPt5.qjmvxyXfO7dQ\u0026bust=1746793025"
+                },
+                {
+                    "small": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/251c2520-ace4-4f1f-88d3-e03fd375e0ab\/image\/6a732037-b65c-4cfd-a5d5-204f78f68f9c.jpeg?versionId=gvPJS620uj_JRWla2dlJLj6CBqmdyEkx\u0026bust=1746793026\u0026width=100",
+                    "medium": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/251c2520-ace4-4f1f-88d3-e03fd375e0ab\/image\/6a732037-b65c-4cfd-a5d5-204f78f68f9c.jpeg?versionId=gvPJS620uj_JRWla2dlJLj6CBqmdyEkx\u0026bust=1746793026\u0026width=300",
+                    "large": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/251c2520-ace4-4f1f-88d3-e03fd375e0ab\/image\/6a732037-b65c-4cfd-a5d5-204f78f68f9c.jpeg?versionId=gvPJS620uj_JRWla2dlJLj6CBqmdyEkx\u0026bust=1746793026\u0026width=600",
+                    "full": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/251c2520-ace4-4f1f-88d3-e03fd375e0ab\/image\/6a732037-b65c-4cfd-a5d5-204f78f68f9c.jpeg?versionId=gvPJS620uj_JRWla2dlJLj6CBqmdyEkx\u0026bust=1746793026"
+                },
+                {
+                    "small": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/251c2520-ace4-4f1f-88d3-e03fd375e0ab\/image\/8e1d363e-69b3-4b4d-b473-5cc9245d2795.jpeg?versionId=yJq2lwjnwhKtA39toFn5eo1Xpm5moOTv\u0026bust=1746793026\u0026width=100",
+                    "medium": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/251c2520-ace4-4f1f-88d3-e03fd375e0ab\/image\/8e1d363e-69b3-4b4d-b473-5cc9245d2795.jpeg?versionId=yJq2lwjnwhKtA39toFn5eo1Xpm5moOTv\u0026bust=1746793026\u0026width=300",
+                    "large": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/251c2520-ace4-4f1f-88d3-e03fd375e0ab\/image\/8e1d363e-69b3-4b4d-b473-5cc9245d2795.jpeg?versionId=yJq2lwjnwhKtA39toFn5eo1Xpm5moOTv\u0026bust=1746793026\u0026width=600",
+                    "full": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/251c2520-ace4-4f1f-88d3-e03fd375e0ab\/image\/8e1d363e-69b3-4b4d-b473-5cc9245d2795.jpeg?versionId=yJq2lwjnwhKtA39toFn5eo1Xpm5moOTv\u0026bust=1746793026"
+                }
+            ],
+            "primary_photo_cropped": {
+                "small": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/251c2520-ace4-4f1f-88d3-e03fd375e0ab\/image\/517d2463-d9d6-45a5-b2ee-40125b36db6a.jpeg?versionId=_d2K6gPnHTImPUb0RshCR36vJSS.UPyE\u0026bust=1746793024\u0026width=300",
+                "medium": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/251c2520-ace4-4f1f-88d3-e03fd375e0ab\/image\/517d2463-d9d6-45a5-b2ee-40125b36db6a.jpeg?versionId=_d2K6gPnHTImPUb0RshCR36vJSS.UPyE\u0026bust=1746793024\u0026width=450",
+                "large": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/251c2520-ace4-4f1f-88d3-e03fd375e0ab\/image\/517d2463-d9d6-45a5-b2ee-40125b36db6a.jpeg?versionId=_d2K6gPnHTImPUb0RshCR36vJSS.UPyE\u0026bust=1746793024\u0026width=600",
+                "full": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/251c2520-ace4-4f1f-88d3-e03fd375e0ab\/image\/517d2463-d9d6-45a5-b2ee-40125b36db6a.jpeg?versionId=_d2K6gPnHTImPUb0RshCR36vJSS.UPyE\u0026bust=1746793024"
+            },
+            "videos": [
+                {
+                    "embed": "\u003Ciframe title=\u0022Video\u0022 src=\u0022https:\/\/www.youtube.com\/embed\/WADe42GxU6E?enablejsapi=1\u0022 frameborder=\u00220\u0022 allowfullscreen\u003E\u003C\/iframe\u003E"
+                }
+            ],
+            "status": "adoptable",
+            "status_changed_at": "2025-05-09T12:17:17+0000",
+            "published_at": "2025-05-09T12:17:16+0000",
+            "distance": null,
+            "contact": {
+                "email": "friendsofdogsatgcac@gmail.com",
+                "phone": null,
+                "address": {
+                    "address1": null,
+                    "address2": null,
+                    "city": "San Marcos ",
+                    "state": "TX",
+                    "postcode": "78666",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "\/v2\/animals\/76335969"
+                },
+                "type": {
+                    "href": "\/v2\/types\/dog"
+                },
+                "organization": {
+                    "href": "\/v2\/organizations\/tx2621"
+                }
+            }
+        },
+        {
+            "id": 76335967,
+            "organization_id": "TX2621",
+            "url": "https:\/\/www.petfinder.com\/dog\/leia-76335967\/tx\/seguin\/friends-of-dogs-corp-tx2621\/?referrer_id=0cf6d033-2287-41f4-9d7d-1276990df664\u0026utm_source=api\u0026utm_medium=partnership\u0026utm_content=0cf6d033-2287-41f4-9d7d-1276990df664",
+            "type": "Dog",
+            "species": "Dog",
+            "breeds": {
+                "primary": "Australian Cattle Dog \/ Blue Heeler",
+                "secondary": "Terrier",
+                "mixed": true,
+                "unknown": false
+            },
+            "colors": {
+                "primary": "Red \/ Chestnut \/ Orange",
+                "secondary": "White \/ Cream",
+                "tertiary": null
+            },
+            "age": "Young",
+            "gender": "Female",
+            "size": "Medium",
+            "coat": "Short",
+            "attributes": {
+                "spayed_neutered": true,
+                "house_trained": true,
+                "declawed": null,
+                "special_needs": false,
+                "shots_current": true
+            },
+            "environment": {
+                "children": true,
+                "dogs": true,
+                "cats": true
+            },
+            "tags": [
+                "Affectionate",
+                "Friendly",
+                "Playful",
+                "Smart",
+                "Funny",
+                "Gentle"
+            ],
+            "name": "Leia",
+            "description": "Meet Leia!\n\nLeia is a 40-pound bundle of sweetness just waiting to steal your heart! Lovable and affectionate, she absolutely...",
+            "organization_animal_id": null,
+            "photos": [
+                {
+                    "small": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/9d1745b5-f3f2-4357-909e-279b0c55520e\/image\/c516fc72-9659-4adf-9471-8c2480b4932a.jpeg?versionId=bvRL75rfkaZ3pPphPeW6ILsL.I68BFux\u0026bust=1746792995\u0026width=100",
+                    "medium": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/9d1745b5-f3f2-4357-909e-279b0c55520e\/image\/c516fc72-9659-4adf-9471-8c2480b4932a.jpeg?versionId=bvRL75rfkaZ3pPphPeW6ILsL.I68BFux\u0026bust=1746792995\u0026width=300",
+                    "large": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/9d1745b5-f3f2-4357-909e-279b0c55520e\/image\/c516fc72-9659-4adf-9471-8c2480b4932a.jpeg?versionId=bvRL75rfkaZ3pPphPeW6ILsL.I68BFux\u0026bust=1746792995\u0026width=600",
+                    "full": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/9d1745b5-f3f2-4357-909e-279b0c55520e\/image\/c516fc72-9659-4adf-9471-8c2480b4932a.jpeg?versionId=bvRL75rfkaZ3pPphPeW6ILsL.I68BFux\u0026bust=1746792995"
+                },
+                {
+                    "small": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/9d1745b5-f3f2-4357-909e-279b0c55520e\/image\/15bf2e25-26fa-4ef7-ae74-16aff58eb0f6.jpeg?versionId=75EhYpSFpAhmNQsypGGrHuyo2eSzW1JI\u0026bust=1746792995\u0026width=100",
+                    "medium": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/9d1745b5-f3f2-4357-909e-279b0c55520e\/image\/15bf2e25-26fa-4ef7-ae74-16aff58eb0f6.jpeg?versionId=75EhYpSFpAhmNQsypGGrHuyo2eSzW1JI\u0026bust=1746792995\u0026width=300",
+                    "large": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/9d1745b5-f3f2-4357-909e-279b0c55520e\/image\/15bf2e25-26fa-4ef7-ae74-16aff58eb0f6.jpeg?versionId=75EhYpSFpAhmNQsypGGrHuyo2eSzW1JI\u0026bust=1746792995\u0026width=600",
+                    "full": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/9d1745b5-f3f2-4357-909e-279b0c55520e\/image\/15bf2e25-26fa-4ef7-ae74-16aff58eb0f6.jpeg?versionId=75EhYpSFpAhmNQsypGGrHuyo2eSzW1JI\u0026bust=1746792995"
+                },
+                {
+                    "small": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/9d1745b5-f3f2-4357-909e-279b0c55520e\/image\/c052cc63-3da3-48a9-a132-14d291ed0525.jpeg?versionId=Z72Rtj0aHzGtFp2LuPS844_WgbsoV1nM\u0026bust=1746792996\u0026width=100",
+                    "medium": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/9d1745b5-f3f2-4357-909e-279b0c55520e\/image\/c052cc63-3da3-48a9-a132-14d291ed0525.jpeg?versionId=Z72Rtj0aHzGtFp2LuPS844_WgbsoV1nM\u0026bust=1746792996\u0026width=300",
+                    "large": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/9d1745b5-f3f2-4357-909e-279b0c55520e\/image\/c052cc63-3da3-48a9-a132-14d291ed0525.jpeg?versionId=Z72Rtj0aHzGtFp2LuPS844_WgbsoV1nM\u0026bust=1746792996\u0026width=600",
+                    "full": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/9d1745b5-f3f2-4357-909e-279b0c55520e\/image\/c052cc63-3da3-48a9-a132-14d291ed0525.jpeg?versionId=Z72Rtj0aHzGtFp2LuPS844_WgbsoV1nM\u0026bust=1746792996"
+                },
+                {
+                    "small": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/9d1745b5-f3f2-4357-909e-279b0c55520e\/image\/b91cafe8-de70-4a18-8ec6-4c9285977650.jpeg?versionId=4t8W5kY.n4m0t_7P82qQY7EhDMWE81kJ\u0026bust=1746792996\u0026width=100",
+                    "medium": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/9d1745b5-f3f2-4357-909e-279b0c55520e\/image\/b91cafe8-de70-4a18-8ec6-4c9285977650.jpeg?versionId=4t8W5kY.n4m0t_7P82qQY7EhDMWE81kJ\u0026bust=1746792996\u0026width=300",
+                    "large": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/9d1745b5-f3f2-4357-909e-279b0c55520e\/image\/b91cafe8-de70-4a18-8ec6-4c9285977650.jpeg?versionId=4t8W5kY.n4m0t_7P82qQY7EhDMWE81kJ\u0026bust=1746792996\u0026width=600",
+                    "full": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/9d1745b5-f3f2-4357-909e-279b0c55520e\/image\/b91cafe8-de70-4a18-8ec6-4c9285977650.jpeg?versionId=4t8W5kY.n4m0t_7P82qQY7EhDMWE81kJ\u0026bust=1746792996"
+                },
+                {
+                    "small": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/9d1745b5-f3f2-4357-909e-279b0c55520e\/image\/640230a5-2ffb-46c3-a897-c870b453bf97.jpeg?versionId=BFdqWGayn6X6zz8dTOT4jTbRp5xIFU0z\u0026bust=1746792996\u0026width=100",
+                    "medium": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/9d1745b5-f3f2-4357-909e-279b0c55520e\/image\/640230a5-2ffb-46c3-a897-c870b453bf97.jpeg?versionId=BFdqWGayn6X6zz8dTOT4jTbRp5xIFU0z\u0026bust=1746792996\u0026width=300",
+                    "large": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/9d1745b5-f3f2-4357-909e-279b0c55520e\/image\/640230a5-2ffb-46c3-a897-c870b453bf97.jpeg?versionId=BFdqWGayn6X6zz8dTOT4jTbRp5xIFU0z\u0026bust=1746792996\u0026width=600",
+                    "full": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/9d1745b5-f3f2-4357-909e-279b0c55520e\/image\/640230a5-2ffb-46c3-a897-c870b453bf97.jpeg?versionId=BFdqWGayn6X6zz8dTOT4jTbRp5xIFU0z\u0026bust=1746792996"
+                }
+            ],
+            "primary_photo_cropped": {
+                "small": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/9d1745b5-f3f2-4357-909e-279b0c55520e\/image\/c516fc72-9659-4adf-9471-8c2480b4932a.jpeg?versionId=bvRL75rfkaZ3pPphPeW6ILsL.I68BFux\u0026bust=1746792995\u0026width=300",
+                "medium": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/9d1745b5-f3f2-4357-909e-279b0c55520e\/image\/c516fc72-9659-4adf-9471-8c2480b4932a.jpeg?versionId=bvRL75rfkaZ3pPphPeW6ILsL.I68BFux\u0026bust=1746792995\u0026width=450",
+                "large": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/9d1745b5-f3f2-4357-909e-279b0c55520e\/image\/c516fc72-9659-4adf-9471-8c2480b4932a.jpeg?versionId=bvRL75rfkaZ3pPphPeW6ILsL.I68BFux\u0026bust=1746792995\u0026width=600",
+                "full": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/9d1745b5-f3f2-4357-909e-279b0c55520e\/image\/c516fc72-9659-4adf-9471-8c2480b4932a.jpeg?versionId=bvRL75rfkaZ3pPphPeW6ILsL.I68BFux\u0026bust=1746792995"
+            },
+            "videos": [
+                {
+                    "embed": "\u003Ciframe title=\u0022Video\u0022 src=\u0022https:\/\/www.youtube.com\/embed\/WADe42GxU6E?enablejsapi=1\u0022 frameborder=\u00220\u0022 allowfullscreen\u003E\u003C\/iframe\u003E"
+                }
+            ],
+            "status": "adoptable",
+            "status_changed_at": "2025-05-09T12:16:49+0000",
+            "published_at": "2025-05-09T12:16:48+0000",
+            "distance": null,
+            "contact": {
+                "email": "friendsofdogsatgcac@gmail.com",
+                "phone": null,
+                "address": {
+                    "address1": null,
+                    "address2": null,
+                    "city": "Seguin",
+                    "state": "TX",
+                    "postcode": "78155",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "\/v2\/animals\/76335967"
+                },
+                "type": {
+                    "href": "\/v2\/types\/dog"
+                },
+                "organization": {
+                    "href": "\/v2\/organizations\/tx2621"
+                }
+            }
+        },
+        {
+            "id": 76335965,
+            "organization_id": "TX2621",
+            "url": "https:\/\/www.petfinder.com\/dog\/leia-76335965\/tx\/new-braunfels\/friends-of-dogs-corp-tx2621\/?referrer_id=0cf6d033-2287-41f4-9d7d-1276990df664\u0026utm_source=api\u0026utm_medium=partnership\u0026utm_content=0cf6d033-2287-41f4-9d7d-1276990df664",
+            "type": "Dog",
+            "species": "Dog",
+            "breeds": {
+                "primary": "Australian Cattle Dog \/ Blue Heeler",
+                "secondary": "Terrier",
+                "mixed": true,
+                "unknown": false
+            },
+            "colors": {
+                "primary": "Red \/ Chestnut \/ Orange",
+                "secondary": "White \/ Cream",
+                "tertiary": null
+            },
+            "age": "Young",
+            "gender": "Female",
+            "size": "Medium",
+            "coat": "Short",
+            "attributes": {
+                "spayed_neutered": true,
+                "house_trained": true,
+                "declawed": null,
+                "special_needs": false,
+                "shots_current": true
+            },
+            "environment": {
+                "children": true,
+                "dogs": true,
+                "cats": true
+            },
+            "tags": [
+                "Affectionate",
+                "Friendly",
+                "Playful",
+                "Smart",
+                "Funny",
+                "Gentle"
+            ],
+            "name": "Leia",
+            "description": "Meet Leia!\n\nLeia is a 40-pound bundle of sweetness just waiting to steal your heart! Lovable and affectionate, she absolutely...",
+            "organization_animal_id": null,
+            "photos": [
+                {
+                    "small": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/8b0f7a9f-a8d6-439f-873d-45f11aa9c482\/image\/ca17d7e4-f447-403b-89a7-c600bf5993b2.jpeg?versionId=.QYaLgPxKAdlKRMc47OK4yMA_aK5exH3\u0026bust=1746792942\u0026width=100",
+                    "medium": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/8b0f7a9f-a8d6-439f-873d-45f11aa9c482\/image\/ca17d7e4-f447-403b-89a7-c600bf5993b2.jpeg?versionId=.QYaLgPxKAdlKRMc47OK4yMA_aK5exH3\u0026bust=1746792942\u0026width=300",
+                    "large": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/8b0f7a9f-a8d6-439f-873d-45f11aa9c482\/image\/ca17d7e4-f447-403b-89a7-c600bf5993b2.jpeg?versionId=.QYaLgPxKAdlKRMc47OK4yMA_aK5exH3\u0026bust=1746792942\u0026width=600",
+                    "full": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/8b0f7a9f-a8d6-439f-873d-45f11aa9c482\/image\/ca17d7e4-f447-403b-89a7-c600bf5993b2.jpeg?versionId=.QYaLgPxKAdlKRMc47OK4yMA_aK5exH3\u0026bust=1746792942"
+                },
+                {
+                    "small": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/8b0f7a9f-a8d6-439f-873d-45f11aa9c482\/image\/f8d96189-2759-463d-a4d8-b14b2146de00.jpeg?versionId=uVkvBjPiu2x.NaajnhdGdXFuqM_9jw9s\u0026bust=1746792942\u0026width=100",
+                    "medium": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/8b0f7a9f-a8d6-439f-873d-45f11aa9c482\/image\/f8d96189-2759-463d-a4d8-b14b2146de00.jpeg?versionId=uVkvBjPiu2x.NaajnhdGdXFuqM_9jw9s\u0026bust=1746792942\u0026width=300",
+                    "large": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/8b0f7a9f-a8d6-439f-873d-45f11aa9c482\/image\/f8d96189-2759-463d-a4d8-b14b2146de00.jpeg?versionId=uVkvBjPiu2x.NaajnhdGdXFuqM_9jw9s\u0026bust=1746792942\u0026width=600",
+                    "full": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/8b0f7a9f-a8d6-439f-873d-45f11aa9c482\/image\/f8d96189-2759-463d-a4d8-b14b2146de00.jpeg?versionId=uVkvBjPiu2x.NaajnhdGdXFuqM_9jw9s\u0026bust=1746792942"
+                },
+                {
+                    "small": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/8b0f7a9f-a8d6-439f-873d-45f11aa9c482\/image\/8d96f606-0e7a-48eb-8958-873f0fcf6b5d.jpeg?versionId=SRWgT81VlYP8hkxtyCflFwAgzkssrtg0\u0026bust=1746792943\u0026width=100",
+                    "medium": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/8b0f7a9f-a8d6-439f-873d-45f11aa9c482\/image\/8d96f606-0e7a-48eb-8958-873f0fcf6b5d.jpeg?versionId=SRWgT81VlYP8hkxtyCflFwAgzkssrtg0\u0026bust=1746792943\u0026width=300",
+                    "large": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/8b0f7a9f-a8d6-439f-873d-45f11aa9c482\/image\/8d96f606-0e7a-48eb-8958-873f0fcf6b5d.jpeg?versionId=SRWgT81VlYP8hkxtyCflFwAgzkssrtg0\u0026bust=1746792943\u0026width=600",
+                    "full": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/8b0f7a9f-a8d6-439f-873d-45f11aa9c482\/image\/8d96f606-0e7a-48eb-8958-873f0fcf6b5d.jpeg?versionId=SRWgT81VlYP8hkxtyCflFwAgzkssrtg0\u0026bust=1746792943"
+                },
+                {
+                    "small": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/8b0f7a9f-a8d6-439f-873d-45f11aa9c482\/image\/e9a0b1a2-0185-4fa9-945c-dc24506fa6e5.jpeg?versionId=xx18dg.LHbNmiVkSzBK_SUbC5rf95Lkc\u0026bust=1746792943\u0026width=100",
+                    "medium": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/8b0f7a9f-a8d6-439f-873d-45f11aa9c482\/image\/e9a0b1a2-0185-4fa9-945c-dc24506fa6e5.jpeg?versionId=xx18dg.LHbNmiVkSzBK_SUbC5rf95Lkc\u0026bust=1746792943\u0026width=300",
+                    "large": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/8b0f7a9f-a8d6-439f-873d-45f11aa9c482\/image\/e9a0b1a2-0185-4fa9-945c-dc24506fa6e5.jpeg?versionId=xx18dg.LHbNmiVkSzBK_SUbC5rf95Lkc\u0026bust=1746792943\u0026width=600",
+                    "full": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/8b0f7a9f-a8d6-439f-873d-45f11aa9c482\/image\/e9a0b1a2-0185-4fa9-945c-dc24506fa6e5.jpeg?versionId=xx18dg.LHbNmiVkSzBK_SUbC5rf95Lkc\u0026bust=1746792943"
+                },
+                {
+                    "small": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/8b0f7a9f-a8d6-439f-873d-45f11aa9c482\/image\/c0b62eee-5d56-4bba-a5fb-877f7a34ab71.jpeg?versionId=0WgNH5EJ9UHD4tJVY0BZRhHWjpFWvth5\u0026bust=1746792943\u0026width=100",
+                    "medium": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/8b0f7a9f-a8d6-439f-873d-45f11aa9c482\/image\/c0b62eee-5d56-4bba-a5fb-877f7a34ab71.jpeg?versionId=0WgNH5EJ9UHD4tJVY0BZRhHWjpFWvth5\u0026bust=1746792943\u0026width=300",
+                    "large": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/8b0f7a9f-a8d6-439f-873d-45f11aa9c482\/image\/c0b62eee-5d56-4bba-a5fb-877f7a34ab71.jpeg?versionId=0WgNH5EJ9UHD4tJVY0BZRhHWjpFWvth5\u0026bust=1746792943\u0026width=600",
+                    "full": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/8b0f7a9f-a8d6-439f-873d-45f11aa9c482\/image\/c0b62eee-5d56-4bba-a5fb-877f7a34ab71.jpeg?versionId=0WgNH5EJ9UHD4tJVY0BZRhHWjpFWvth5\u0026bust=1746792943"
+                }
+            ],
+            "primary_photo_cropped": {
+                "small": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/8b0f7a9f-a8d6-439f-873d-45f11aa9c482\/image\/ca17d7e4-f447-403b-89a7-c600bf5993b2.jpeg?versionId=.QYaLgPxKAdlKRMc47OK4yMA_aK5exH3\u0026bust=1746792942\u0026width=300",
+                "medium": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/8b0f7a9f-a8d6-439f-873d-45f11aa9c482\/image\/ca17d7e4-f447-403b-89a7-c600bf5993b2.jpeg?versionId=.QYaLgPxKAdlKRMc47OK4yMA_aK5exH3\u0026bust=1746792942\u0026width=450",
+                "large": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/8b0f7a9f-a8d6-439f-873d-45f11aa9c482\/image\/ca17d7e4-f447-403b-89a7-c600bf5993b2.jpeg?versionId=.QYaLgPxKAdlKRMc47OK4yMA_aK5exH3\u0026bust=1746792942\u0026width=600",
+                "full": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/8b0f7a9f-a8d6-439f-873d-45f11aa9c482\/image\/ca17d7e4-f447-403b-89a7-c600bf5993b2.jpeg?versionId=.QYaLgPxKAdlKRMc47OK4yMA_aK5exH3\u0026bust=1746792942"
+            },
+            "videos": [
+                {
+                    "embed": "\u003Ciframe title=\u0022Video\u0022 src=\u0022https:\/\/www.youtube.com\/embed\/WADe42GxU6E?enablejsapi=1\u0022 frameborder=\u00220\u0022 allowfullscreen\u003E\u003C\/iframe\u003E"
+                }
+            ],
+            "status": "adoptable",
+            "status_changed_at": "2025-05-09T12:15:57+0000",
+            "published_at": "2025-05-09T12:15:56+0000",
+            "distance": null,
+            "contact": {
+                "email": "friendsofdogsatgcac@gmail.com",
+                "phone": null,
+                "address": {
+                    "address1": "840 TX337 Loop",
+                    "address2": null,
+                    "city": "New Braunfels",
+                    "state": "TX",
+                    "postcode": "78130",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "\/v2\/animals\/76335965"
+                },
+                "type": {
+                    "href": "\/v2\/types\/dog"
+                },
+                "organization": {
+                    "href": "\/v2\/organizations\/tx2621"
+                }
+            }
+        },
+        {
+            "id": 76335960,
+            "organization_id": "NC284",
+            "url": "https:\/\/www.petfinder.com\/dog\/itty-bitty-76335960\/nc\/marshall\/madison-county-animal-services-nc284\/?referrer_id=0cf6d033-2287-41f4-9d7d-1276990df664\u0026utm_source=api\u0026utm_medium=partnership\u0026utm_content=0cf6d033-2287-41f4-9d7d-1276990df664",
+            "type": "Dog",
+            "species": "Dog",
+            "breeds": {
+                "primary": "Great Dane",
+                "secondary": null,
+                "mixed": false,
+                "unknown": false
+            },
+            "colors": {
+                "primary": "Black",
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Young",
+            "gender": "Female",
+            "size": "Extra Large",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": false,
+                "house_trained": false,
+                "declawed": null,
+                "special_needs": false,
+                "shots_current": false
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [],
+            "name": "Itty Bitty",
+            "description": null,
+            "organization_animal_id": null,
+            "photos": [
+                {
+                    "small": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/63a7d7f1-4072-4383-9ff3-e5272f5b0018\/image\/16ecdde3-bfae-4e38-bd33-5d09f8583c7f.jpg?versionId=3r0mbtpX_S3C5CkemRWv9tE3paGIKyI7\u0026bust=1746792833\u0026width=100",
+                    "medium": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/63a7d7f1-4072-4383-9ff3-e5272f5b0018\/image\/16ecdde3-bfae-4e38-bd33-5d09f8583c7f.jpg?versionId=3r0mbtpX_S3C5CkemRWv9tE3paGIKyI7\u0026bust=1746792833\u0026width=300",
+                    "large": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/63a7d7f1-4072-4383-9ff3-e5272f5b0018\/image\/16ecdde3-bfae-4e38-bd33-5d09f8583c7f.jpg?versionId=3r0mbtpX_S3C5CkemRWv9tE3paGIKyI7\u0026bust=1746792833\u0026width=600",
+                    "full": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/63a7d7f1-4072-4383-9ff3-e5272f5b0018\/image\/16ecdde3-bfae-4e38-bd33-5d09f8583c7f.jpg?versionId=3r0mbtpX_S3C5CkemRWv9tE3paGIKyI7\u0026bust=1746792833"
+                },
+                {
+                    "small": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/63a7d7f1-4072-4383-9ff3-e5272f5b0018\/image\/cca10f67-5281-4ddb-bed3-570679ccea09.jpg?versionId=9ZyoFdrTwJNNGWQdIhQt5jv8QlYKYxDx\u0026bust=1746792833\u0026width=100",
+                    "medium": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/63a7d7f1-4072-4383-9ff3-e5272f5b0018\/image\/cca10f67-5281-4ddb-bed3-570679ccea09.jpg?versionId=9ZyoFdrTwJNNGWQdIhQt5jv8QlYKYxDx\u0026bust=1746792833\u0026width=300",
+                    "large": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/63a7d7f1-4072-4383-9ff3-e5272f5b0018\/image\/cca10f67-5281-4ddb-bed3-570679ccea09.jpg?versionId=9ZyoFdrTwJNNGWQdIhQt5jv8QlYKYxDx\u0026bust=1746792833\u0026width=600",
+                    "full":"https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/"
+                }]}]}
