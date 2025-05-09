@@ -12,8 +12,11 @@ document.querySelector(".form").addEventListener("submit", function (event) {
         for (let i = 0; i < superhero.length; i++) {
           if (superhero[i]["producer"] == "Marvel Studios") {
             document.querySelector(".resultado").innerHTML += `
+            <div class="resultado_container">
               <h2>${superhero[i]['NameCharacter']}</h2>
               <img src="${superhero[i]['poster']}" alt="${superhero[i]['NameCharacter']}">
+               <h3>${superhero[i]['NameActor']}</h2>
+            </div>
             `;
           }
         }
@@ -21,8 +24,11 @@ document.querySelector(".form").addEventListener("submit", function (event) {
         for (let i = 0; i < superhero.length; i++) {
           if (superhero[i]["producer"] == "DC Comics") {
             document.querySelector(".resultado").innerHTML += `
+             <div class="resultado_container">
               <h2>${superhero[i]['NameCharacter']}</h2>
               <img src="${superhero[i]['poster']}" alt="${superhero[i]['NameCharacter']}">
+               <h3>${superhero[i]['NameActor']}</h2>
+            </div>
             `;
           }
         }

@@ -6,13 +6,19 @@
     font-family: "Font2";
     src: url(../storage/font/fonts/Lato-BlackItalic.ttf);
 }
+@font-face {
+    font-family: "Font3";
+    src: url(../storage/font/fonts/Lato-BoldItalic.ttf);
+}
 body{
     margin: 1%;
     padding: 0%;
     background-color: rgb(255, 255, 255);
-    overflow: scroll;
-    height: 100%;
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-rojo-estilo-comic_23-2149034894.jpg?semt=ais_hybrid&w=740);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 .personajes_container{
     display: flex;
     align-items: center;
@@ -21,13 +27,15 @@ body{
 }
 h1{
     font-family: "Font";
-    font-size: 4vw;
+    font-size: 6vw;
+    align-items: center;
+    text-align: center;
 }
 #option{
     padding: 1vw;
     font-size: 1vw;
     border: 4px;
-    background-image: linear-gradient(rgb(0, 64, 255), rgb(137, 91, 187)); ;
+    background-image: linear-gradient(rgb(255, 0, 0), rgb(83, 3, 114)); ;
     border-radius: 10px;
     color: rgb(255, 255, 255);
     width: 20vw;
@@ -37,7 +45,7 @@ h1{
     padding: 1vw;
     font-size: 1vw;
     border: 4px;
-    background-image: linear-gradient(rgb(83, 4, 125), rgb(66, 97, 218)); ;
+    background-image: linear-gradient(rgb(83, 4, 125), rgb(211, 7, 7)); ;
     border-radius: 10px;
     color: aliceblue;
     width: 5vw;
@@ -49,18 +57,52 @@ h1{
 .resultado{ 
     display: flex;
     flex-direction: column;
-    width: 16vw;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
     
-    align-items:center ;
-    padding-left: 3vw;
-    margin-left: 39vw;
 }
+
 img{
-    width: 10vw;
-    padding-inline: 4vw;
-    padding-top: 3vw;
+    width: 30vw;
+    height: 30vw;
+    padding-inline: 2vw;
+    padding-top: 2vw;
     padding-bottom: 3vw;
+    object-fit: cover;
+    z-index: fixed;
+   
+    border-radius: 8vw;
+    
 }
 h2{
-    font-family: "Font";
+    font-family: "Font3";
+    font-size: 3vw;
+    line-height: 2vw;
+    letter-spacing: 0.2vw;
+  
+}
+h3{
+    font-family: "Font2";
+    color: rgb(255, 255, 255);
+    font-size: 1.5vw;
+   
+}
+.boton{
+   
+    width: fit-content;
+    border-color:  black;
+    padding-top: 2vw;
+    margin-left: 43vw;
+}
+.Agregar{
+    background-color: white;
+    border-radius: 3vw;
+    padding: 1vw;
+    font-family: "Font3";
+    border: 3px solid rgb(7, 7, 7);
+}
+a{
+    text-decoration: none;
+    color: black;
 }
