@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Font";
+    src: url(../storage/fonts/Kantumruy-Regular.ttf);
+}
+@font-face {
+    font-family: "Font2";
+    src: url(../storage/fonts/Kantumruy-Light.ttf);
+}
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.encabezado{
+    display: flex;
+    gap: 14vw;
+    margin-bottom: 0vw;
+    align-items: center;
+    padding-bottom: 0vw;
+    height: 15vh;
+    background-color: aqua;
+    font-family: "Font2";
+    font-size: 1vw;
+}
+.logo{
+    width: 15vw;
+}
