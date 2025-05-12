@@ -134,3 +134,38 @@ margin-left: 5vw;
     margin-top: -9vw;
    
 }
+.opciones_container{
+    padding: 3vw;
+    width: 70vw;
+    margin-left: 20vw;
+    display: flex;
+    justify-content: space-around;
+}
+.opciones_container_perros{
+    border: 0.2vw solid rgb(207, 202, 202);
+    border-radius: 1vw;
+}
+.opciones_container_perros_img{
+    width: 20vw;
+}
+.opciones_container_gatos{
+    border: 0.2vw solid rgb(207, 202, 202);
+    border-radius: 1vw;
+}
+.opciones_container_gatos_img{
+    width: 20vw;
+}
+.opciones_container_animals{
+    border: 0.2vw solid rgb(207, 202, 202);
+    border-radius: 1vw;
+}
+.opciones_container_animals_img{
+    width: 20vw;
+}
+h2:hover{
+    cursor:pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
