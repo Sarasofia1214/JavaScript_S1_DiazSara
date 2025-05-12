@@ -5,12 +5,13 @@ En este repositoria se encuentra la evidencia del trabajo hecho para hacer funci
 ## Tabla de contenidos
 | Proyectos         | Visualización  |
 |--             |--            |
-| [APIpet](Apipet) |https://sarasofia1214.github.io/JavaScript_S1_DiazSara/Proyecto/ |
+| [Proyecto](Proyecto) |https://sarasofia1214.github.io/JavaScript_S1_DiazSara/Proyecto/ |
 | [PokeAPI](DiaRepaso) |https://sarasofia1214.github.io/JavaScript_S1_DiazSara/DiaRepaso/  |
 | [Higher or Lower](Dia7) | https://sarasofia1214.github.io/JavaScript_S1_DiazSara/Dia7/main.html |
 | [CRUD obras de arte](Dia12) |https://sarasofia1214.github.io/JavaScript_S1_DiazSara/Dia12/main.html|
 | [Repaso uso API](Dia14) |https://sarasofia1214.github.io/JavaScript_S1_DiazSara/Dia14/main.html|
 | [CRUD Superheroes](DiaMarvel) |https://sarasofia1214.github.io/JavaScript_S1_DiazSara/DiaMarvel/main.html|
+| [APIpet](APIpet) |[https://sarasofia1214.github.io/JavaScript_S1_DiazSara/Proyecto/](https://sarasofia1214.github.io/JavaScript_S1_DiazSara/APIpet/main.html) |
 
 ## Instalación y Uso
 Ingrsea al link de la visualización para ver la página desplegada y probarla.
