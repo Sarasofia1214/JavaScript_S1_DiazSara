@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "Font";
+    src: url(../storage/fonts/Gabarito-Medium-BF651cdf1f3f18e.ttf);
+}
+@font-face {
+    font-family: "Font2";
+    src: url(../storage/fonts/MPLUS1p-Regular.ttf);
+}
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.header_container{
+
+    background-color: #F8CB69;
+    padding-top: -2vw;
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 2vw;
+    border-top-right-radius: 17vw;
+    align-items: center;
+}
+.flecha{
+    width: 5vw;
+    top: -3vw;
+    position: relative;
+}
+.logo{
+    width: 14vw;
+    padding: 0%;
+    height: 10vw;
+}
+
+.busqueda_container{
+    display: flex;
+    justify-content:space-evenly;
+}
+.busqueda_conteiner_especie{
+    display: flex;
+    flex-direction: column;
+    width: 12vw;
+    align-items: center;
+    font-family: "Font";
+    font-size: 2vw;
+    gap: 1vw;
+}
+.especie_select{
+    font-family: "Font2";
+    font-size: 1vw;
+    width: 10vw;
+    height: 1.5vw;
+}
+
+.busqueda_conteiner_edad{
+    display: flex;
+    flex-direction: column;
+    width: 12vw;
+    align-items: center;
+    font-family: "Font";
+    font-size: 2vw;
+    gap: 1vw;
+}
+.busqueda_conteiner_ciudad{
+    display: flex;
+    flex-direction: column;
+    width: 12vw;
+    align-items: center;
+    font-family: "Font";
+    font-size: 2vw;
+    gap: 1vw;
+}
