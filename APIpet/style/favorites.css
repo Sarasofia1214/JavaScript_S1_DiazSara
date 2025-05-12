@@ -69,3 +69,7 @@ body{
     font-size: 2vw;
     gap: 1vw;
 }
+
+.mascotas_container{
+    background-color: aqua;
+}
