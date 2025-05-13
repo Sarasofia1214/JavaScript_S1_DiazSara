@@ -72,4 +72,16 @@ body{
 
 .mascotas_container{
     background-color: aqua;
+    display: grid;
+    grid-column: auto auto auto auto;
+  
+
+}
+.mascota{
+    background-color: bisque;
+    width: 10vw;
+}
+.imagen_mascota{
+    width: 13vw;
+    border-radius: 2vw;
 }
