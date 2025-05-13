@@ -7,8 +7,8 @@ const urla = `https://api.petfinder.com/v2/animals`
           headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
           body: new URLSearchParams({
             grant_type: 'client_credentials',
-            client_id: 'ipYUMpbzMKDh7vZ9FjfxyaDkqaMC4ghpA8puAkiLe3sppXVRT5',
-            client_secret: 'rdTZTyL44guvU7wXMRzoboGXjiQmS8jArW0qX2IW'
+            client_id: 'MRAslGGU89l7sF8D30GLOsclEo4vb0z15B7J4LRDHXtyQArsfu',
+            client_secret: 'wYCXstYxej9tPMP9L6oXMTubxzsAx8DgBeLeZfhj'
           })
         })
           .then(res => res.json())
@@ -31,10 +31,11 @@ const urla = `https://api.petfinder.com/v2/animals`
                     let imagesrc = mascotas.photos[0]?.full || mascotas.photos[0]?.large || mascotas.photos[0]?.medium || mascotas.photos[0]?.small || '';
                     cpets.innerHTML += `
                     <div class="mascota">
-                        <img class="imagen_mascota" src="${imagesrc}" alt="">
+                        <div class="imagen_mascota_container"><img class="imagen_mascota" src="${imagesrc}" alt=""></div>
                         <p class="nombre_mascota">${mascotas.name}</p>
                         <p class="tamaño_mascota">${mascotas.description}</p>
-                        <p class="lugar_mascota">USA    </p>
+                        <p class="lugar_mascota"></p>
+                        <buttom class="boton_information">Mas información</buttom>
                     </div>
                     `;
                 }
