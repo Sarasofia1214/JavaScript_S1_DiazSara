@@ -27,17 +27,24 @@ const urla = `https://api.petfinder.com/v2/animals`
               .then(data => {
                 for (i=0;i<data.animals.length;i++){
                     console.log(data)
+                    const notfound = ("../storage/images/dognotfound.svg")
                     let mascotas = data.animals[i]
-                    let imagesrc = mascotas.photos[0]?.full || mascotas.photos[0]?.large || mascotas.photos[0]?.medium || mascotas.photos[0]?.small || '';
+                    let imagesrc = mascotas.photos[0]?.full || mascotas.photos[0]?.large || mascotas.photos[0]?.medium || mascotas.photos[0]?.small || notfound;
                     cpets.innerHTML += `
                     <div class="mascota">
                         <div class="imagen_mascota_container"><img class="imagen_mascota" src="${imagesrc}" alt=""></div>
-                        <p class="nombre_mascota">${mascotas.name}</p>
+                        <p class="nombre_mascota"> Nombre: ${mascotas.name}</p>
                         <p class="tamaño_mascota">${mascotas.age}</p>
-                        <p class="lugar_mascota"></p>
-                        <buttom class="boton_information">Mas información</buttom>
+                        <p class="genero_mascota">${mascotas.gender}</p>
+                        <p class="lugar_mascota">${mascotas.contact.address.city}, ${mascotas.contact.address.country}</p>
+                        <p class=></p>
+                        <div class="botones_container">
+                          <buttom class="boton_information">Mas información</buttom>
+                          <img class="imagen_corazon" src="../storage/images/pngtree-lossy-orange-heart-icon-png-image_14850814-removebg-preview 1.svg" alt="">
+                        </div>
                     </div>
                     `;
+                    console.log(mascotas)
                 }
               });
           });

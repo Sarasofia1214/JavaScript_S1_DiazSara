@@ -107,13 +107,11 @@ body{
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 .mascota{
-    background-color: rgb(224, 180, 144);
     border-top-left-radius: 2vw;
     border-top-right-radius: 2vw;
-    border-radius: 10vw solid rgba(151, 56, 56, 0.596);
-    border: 3vw rgb(40, 31, 56);
     width: 18vw;
-    margin: 2vw;   
+    margin: 2vw;  
+    padding-bottom: 2vw;
 }
 .imagen_mascota{
     position: absolute;
@@ -127,35 +125,62 @@ body{
 }
 .imagen_mascota_container{
     position: relative;
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  overflow: hidden;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
 }
 .nombre_mascota{
     font-size: 2vw;
     margin-top: 0vw;
     font-family: "Font";
+    padding: 0%;
+    margin-left: 1vw;
 }
 .tamaño_mascota{
-    font-size: 1vw;
+    font-size: 1.5vw;
+    margin-top: -2vw;
     font-family: "Font3";
+    margin-left: 1vw;
+    padding-bottom: 1vw;
+}
+.genero_mascota{
+    font-size: 1vw;
+    margin-top: -2vw;
+    font-family: "Font";
+    margin-left: 1.2vw;
+}
+.lugar_mascota{
+    font-size: 1.2vw;
+    font-family: "Font";
+    margin-left: 1vw;
+    margin-top: 0vw;
 }
 .mascota:hover {
     transform: scale(1.02);
     transition: transform 0.2s ease-in-out;
+  }
+  .botones_container{
+    display: flex;
+    gap: 4vw;
   }
   .boton_information {
     background-color: #FF9F68;
     color: white;
     border: none;
     border-radius: 12px;
-    padding: 8px 16px;
+    padding: 0.8vw;
+    font-size: 1vw;
+    font-family: "Font";
+    margin-left: 1vw;
+  }
+  .imagen_corazon{
+    width: 3vw;
   }
   .mascota:nth-child(even) {
     background-color: #E0BBE4;
   }
   .mascota:nth-child(odd) {
-    background-color: #f7c7b1;
+    background-color: #f0efe7;
   }
   .mascota{
     box-shadow: 0 4px 12px rgba(37, 32, 32, 0.658);
