@@ -33,7 +33,7 @@ const urla = `https://api.petfinder.com/v2/animals`
                     <div class="mascota">
                         <div class="imagen_mascota_container"><img class="imagen_mascota" src="${imagesrc}" alt=""></div>
                         <p class="nombre_mascota">${mascotas.name}</p>
-                        <p class="tamaño_mascota">${mascotas.description}</p>
+                        <p class="tamaño_mascota">${mascotas.age}</p>
                         <p class="lugar_mascota"></p>
                         <buttom class="boton_information">Mas información</buttom>
                     </div>
